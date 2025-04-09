@@ -72,7 +72,7 @@ export default function Navbar() {
         <div className="collapse navbar-collapse bg-warning" id="navbarTogglerDemo01">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
             <li className="nav-item">
-              <Link className="nav-link" to="/">Rack</Link>
+              <Link className="nav-link" to="/rackpage">Rack</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/">Bench</Link>

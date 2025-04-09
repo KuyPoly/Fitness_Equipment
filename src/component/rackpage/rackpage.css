@@ -1,0 +1,20 @@
+.rackpage {
+    background-color: 252424;
+    height: 100vh;
+}
+.title{
+    display: flex;
+    margin-left: 100px;
+}
+.desc{
+    display: flex;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.desc__text{
+    display: flex;
+    width: 85%;
+    margin-left: 100px;
+    font-weight: 350;
+    text-align: left;
+}
