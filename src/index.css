@@ -1,35 +1,57 @@
+/* Base body styles */
 body {
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
   background-color: #242323;
+  color: white;
   max-width: 1512px;
 }
 
+/* Responsive typography system */
 h1 {
-  font-size: 3.2em;
+  font-size: clamp(2rem, 5vw, 3.5rem);
   line-height: 1.1;
 }
 
 h2 {
-  font-size: 2.4em;
-  line-height: 1.1;
-}
-h3 {
-  font-size: 1.8em;
-  line-height: 1.1;
-}
-h4 {
-  font-size: 1.6em;
-  line-height: 1.1;
-}
-h5 {
-  font-size: 1.4em;
-  line-height: 1.1;
-}
-h6 {
-  font-size: 1.2em;
+  font-size: clamp(1.5rem, 4vw, 2.8rem);
   line-height: 1.1;
 }
 
+h3 {
+  font-size: clamp(1.3rem, 3.5vw, 2.2rem);
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: clamp(1.1rem, 3vw, 1.8rem);
+  line-height: 1.2;
+}
+
+h5 {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  line-height: 1.3;
+}
+
+h6 {
+  font-size: clamp(0.9rem, 2vw, 1.2rem);
+  line-height: 1.3;
+}
+
+p {
+  font-size: clamp(0.95rem, 1.8vw, 1.1rem);
+  line-height: 1.6;
+}
+
+/* Optional: Add margin control for better vertical rhythm */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}

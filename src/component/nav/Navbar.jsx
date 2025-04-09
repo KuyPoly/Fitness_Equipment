@@ -34,7 +34,7 @@ export default function Navbar() {
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
-                fill="currentColor"
+                fill="#242323"
                 className="bi bi-search"
                 viewBox="0 0 16 16"
                 style={{ cursor: 'pointer' }}
@@ -106,7 +106,7 @@ export default function Navbar() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
                   height="22"
-                  fill="currentColor"
+                  fill="#242323"
                   className="bi bi-search me-3"
                   viewBox="0 0 16 16"
                   style={{ cursor: 'pointer' }}

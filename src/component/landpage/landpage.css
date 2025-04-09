@@ -1,0 +1,41 @@
+.landpage {
+    width: 100vw;
+    height: 92vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.landpage__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url('../../assets/landpagebg-home.png') center/cover no-repeat;
+    z-index: 1;
+}
+
+.landpage__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    max-width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+
+/* Button styling */
+.landpage__container .btn {
+    padding: 10px 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
