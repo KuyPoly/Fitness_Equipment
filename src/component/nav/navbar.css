@@ -1,0 +1,14 @@
+.navbar {
+    width: 100vw;
+    height: 56px;
+}
+
+.container-fluid {
+    max-width: 1512px;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #fff;
+    color: #fff;
+}
+
