@@ -2,6 +2,7 @@ import React from 'react';
 import './home.css';
 import Landpage from '../../component/landpage/landpage';
 import PremiumCard from '../../component/premuimCard/premuimCard';
+import Wear from '../../component/wear/wear';
 
 // Import images
 import pre1 from '../../assets/pre1.png';
@@ -23,6 +24,7 @@ export default function Home() {
                         <PremiumCard name="Specialty Machines" link="/" pic={pre4} />
                     </div>
                 </div>
+                <Wear />
             </div>
         </div>
     );

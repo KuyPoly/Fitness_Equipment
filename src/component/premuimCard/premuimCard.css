@@ -11,7 +11,7 @@
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-color: #242323; /* Fallback color */
     border: 1px solid #ffc107;
-    border-radius: 8px;
+
     overflow: hidden;
     position: relative;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -28,8 +28,7 @@
     padding: 19px;
     text-align: left;
     color: white;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+
 }
 
 .premium-card__content h5 {
@@ -40,7 +39,7 @@
 
 .premium-card__link {
     font-size: 1rem;
-    color: #ffc107;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
     border-bottom: 2px solid transparent;
@@ -49,6 +48,7 @@
 
 .premium-card__link:hover {
     border-color: #ffc107;
+    color: #ffc107;
 }
 
 /* Responsive Design */
