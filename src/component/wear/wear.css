@@ -1,0 +1,40 @@
+* {
+    color: black;
+}
+
+.wear {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;   
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wear__container {
+    width: 55vw;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.wear__img-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wear__img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+.btn:hover {
+    color: #ffc107;
+    background-color: black;
+}
