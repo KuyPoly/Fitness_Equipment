@@ -1,0 +1,45 @@
+/* Premium section container */
+.home__premium-section {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    padding-bottom: 30px;
+  }
+  
+  /* Left-aligned heading */
+  .home__premium-section h3 {
+    margin: 0 0 20px 0;
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    padding-left: 10px; /* Adjust this to match card alignment */
+  }
+  
+  /* Cards container - keep your existing styles */
+  .home__premium-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1024px) {
+    .home__premium-cards {
+      justify-content: flex-start; /* Keep left-aligned */
+    }
+    .home__premium-section h3 {
+      padding-left: 0; /* Remove padding when cards go full width */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .home__premium-cards {
+      justify-content: center; /* Center cards on mobile */
+    }
+    .home__premium-section h3 {
+      text-align: center; /* Center heading on mobile */
+      padding-left: 0;
+    }
+  }

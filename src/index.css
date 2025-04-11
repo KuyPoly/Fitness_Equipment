@@ -1,12 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Base body styles */
 body {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
   background-color: #242323;
   color: white;
-  max-width: 1512px;
+  overflow-x: hidden;
 }
 
 /* Responsive typography system */
@@ -22,33 +30,33 @@ h2 {
 
 h3 {
   font-size: clamp(1.3rem, 3.5vw, 2.2rem);
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 h4 {
   font-size: clamp(1.1rem, 3vw, 1.8rem);
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 h5 {
   font-size: clamp(1rem, 2.5vw, 1.5rem);
-  line-height: 1.3;
+  line-height: 1.1;
 }
 
 h6 {
   font-size: clamp(0.9rem, 2vw, 1.2rem);
-  line-height: 1.3;
+  line-height: 1.1;
 }
 
 p {
   font-size: clamp(0.95rem, 1.8vw, 1.1rem);
-  line-height: 1.6;
+  line-height: 1.1;
 }
 
 /* Optional: Add margin control for better vertical rhythm */
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 0.35em;
+  margin-bottom: 0.35em;
 }
 
 p {
