@@ -1,0 +1,83 @@
+[
+    {
+      "name": "Platinum Club Series Treadmill with Discover SE3HD Console",
+      "tagline": "Premium Treadmill with Advanced Technology",
+      "description": "The Platinum Club Series Treadmill offers a high-definition touchscreen, personalized workouts, and a sleek design, providing a top-tier cardio experience.",
+      "dimensions": "80” x 37” x 62.25” (203cm x 94cm x 158cm)",
+      "weight": "444 lbs (201kg)",
+      "image": "https://shop.lifefitness.com/cdn/shop/files/club-series-treadmill-life-fitness-sl-console-black-onyx-update-1000x1000.jpg?v=1707748446"
+    },
+    {
+      "name": "Matrix Fitness T7Xe Treadmill",
+      "tagline": "Durable Treadmill for Intense Workouts",
+      "description": "The T7Xe Treadmill features a powerful motor, spacious running surface, and advanced console, ideal for both home and commercial use.",
+      "dimensions": "83” x 36” x 61” (211cm x 91cm x 155cm)",
+      "weight": "445 lbs (202kg)",
+      "image": "https://images.activefitnessstore.com/product-large/LIF-LCV-ASPT-SL-ASLHN-12-0/life-fitness-aspire-sl-treadmill-arctic-silver-high-voltage-base-lif-lcv-aspt-sl-aslhn-12-0.jpg"
+    },
+    {
+      "name": "Merax A6 Folding Electric Treadmill",
+      "tagline": "Compact Treadmill for Home Use",
+      "description": "The Merax A6 offers a foldable design, multiple speed settings, and an LED display, making it perfect for small spaces.",
+      "dimensions": "55” x 25” x 45” (140cm x 64cm x 114cm)",
+      "weight": "70 lbs (32kg)",
+      "image": "https://www.xterrafitness.com/pub/media/amasty/webp/catalog/product/cache/ff1f99b98c71b3754c9e0f90de22a5db/w/s/ws300_wr_r-r3-4_1_jpg.webp"
+    },
+    {
+      "name": "StairMaster 8 Series Gauntlet Stepmill with LCD Console",
+      "tagline": "High-Intensity Stair Climber",
+      "description": "The 8 Series Gauntlet offers a challenging cardio workout with its revolving staircase design and user-friendly LCD console.",
+      "dimensions": "58” x 34” x 89” (147cm x 86cm x 226cm)",
+      "weight": "343 lbs (156kg)",
+      "image": "https://gymconcepts.ca/cdn/shop/products/stairmaster-8gx-gauntlet-319823_1080x.webp?v=1680122010"
+    },
+    {
+      "name": "StairMaster HIITMill X Incline Treadmill",
+      "tagline": "Self-Powered Incline Treadmill for HIIT",
+      "description": "The HIITMill X is designed for high-intensity interval training, featuring a fixed 11-degree incline and self-powered speed control.",
+      "dimensions": "78” x 55” x 66” (198cm x 140cm x 168cm)",
+      "weight": "430 lbs (195kg)",
+      "image": "https://m.media-amazon.com/images/I/71dkN94jjsL._AC_SL1500_.jpg"
+    },
+    {
+      "name": "StairMaster SM916 Stepmill",
+      "tagline": "Compact Stair Climber for Home Gyms",
+      "description": "The SM916 offers a space-saving design with a rotating staircase, providing an effective lower-body workout.",
+      "dimensions": "58” x 34” x 89” (147cm x 86cm x 226cm)",
+      "weight": "343 lbs (156kg)",
+      "image": "https://energiefitness.in/cdn/shop/files/ESM-101A.png?v=1715752150"
+    },
+    {
+      "name": "Body-Solid Pro Clubline Cable Crossover SCC1200G",
+      "tagline": "Versatile Cable Machine for Full-Body Workouts",
+      "description": "The SCC1200G features adjustable pulleys and dual weight stacks, allowing for a wide range of exercises targeting various muscle groups.",
+      "dimensions": "156” x 36” x 91” (396cm x 91cm x 231cm)",
+      "weight": "940 lbs (427kg)",
+      "image": "https://titan.fitness/cdn/shop/files/400883_01.jpg?v=1742223739"
+    },
+    {
+      "name": "Freemotion Dual Cable Cross Machine",
+      "tagline": "Functional Trainer with Independent Arms",
+      "description": "The Dual Cable Cross offers adjustable arms and weight stacks, enabling users to perform a variety of functional movements.",
+      "dimensions": "60” x 113” x 84” (152cm x 287cm x 213cm)",
+      "weight": "925 lbs (420kg)",
+      "image": "https://bellsofsteel.com/cdn/shop/files/2STK-PULT3-PUB-SET.jpg?v=1744144872&width=460"
+    },
+    {
+      "name": "Exercise Bikes",
+      "tagline": "High-Performance Bikes for Athletes",
+      "description": "The Bikes combines cardio and power training",
+      "dimensions": "83” x 35” x 63” (211cm x 89cm x 160cm)",
+      "weight": "473 lbs (215kg)",
+      "image": "https://mobileimages.lowes.com/productimages/7ccab436-b4c1-4e68-85d0-61035d16655a/65490345.jpg?size=xl"
+    },
+    {
+      "name": "Assault AirBike Elite",
+      "tagline": "Durable Air Resistance Bike for Intense Training",
+      "description": "The AirBike Elite uses air resistance to match your effort, providing a challenging full-body workout suitable for all fitness levels.",
+      "dimensions": "55” x 26” x 55” (140cm x 66cm x 140cm)",
+      "weight": "139 lbs (63kg)",
+      "image": "https://shop.lifefitness.com/cdn/shop/files/club-series-plus-upright-bike-sl-titanium-update-1000x1000.jpg?v=1715009358"
+    }
+  ]
+  
