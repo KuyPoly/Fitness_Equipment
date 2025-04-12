@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './productPage.css';
 
@@ -14,6 +14,18 @@ const ProductPage = () => {
   const { name } = useParams();
   const allData = [...rackData, ...benchData, ...specialtyData, ...barWeightData];
   const product = allData.find((item) => item.name === name);
+
+  const [recentlyViewed, setRecentlyViewed] = useState([]);
+
+  // Track the current product as recently viewed
+  useEffect(() => {
+    if (product) {
+      const storedProducts = JSON.parse(localStorage.getItem('recentlyViewed')) || [];
+      const updatedProducts = [product, ...storedProducts.filter((p) => p.name !== product.name)];
+      localStorage.setItem('recentlyViewed', JSON.stringify(updatedProducts.slice(0, 5))); // Limit to 5 items
+      setRecentlyViewed(updatedProducts.slice(0, 5));
+    }
+  }, [product]);
 
   const bestSellers = useMemo(() => {
     return [...allData].sort(() => 0.5 - Math.random()).slice(0, 5);
@@ -33,9 +45,9 @@ const ProductPage = () => {
         <ProductDetails product={product} />
 
         <section className="section">
-          <h3>Recently View</h3>
+          <h3>Recently Viewed</h3>
           <div className="card-container">
-            {allData.slice(0, 3).map((item, index) => (
+            {recentlyViewed.map((item, index) => (
               <ProductCard key={index} product={item} />
             ))}
           </div>
