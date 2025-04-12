@@ -15,7 +15,7 @@ export default function Card({ item }) {
                 <Link to="/cart" className="basket-icon">
                     🛒 {/* Basket icon wrapped in a Link */}
                 </Link>
-            </Link>
+            </div>
             <div className="rack-item__price">{item.price}</div>
             <div className="rack-item__rating">⭐⭐⭐⭐⭐</div>
         </div>
