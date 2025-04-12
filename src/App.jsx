@@ -7,6 +7,8 @@ import Rackpage from './pages/rack/rackpage';
 import ProductPage from './pages/product/productPage';
 import CartPage from './pages/cart/cartPage';
 import ScrollToTop from './component/scrollTotheTop';
+import AccountPage from './component/accountpage/accountpage';  
+import Signup from './component/signup/signup';  
 
 function App() {
   const [cart, setCart] = useState([]); // Global cart state
@@ -21,6 +23,8 @@ function App() {
           <Route path="/rackpage" element={<Rackpage />} />
           <Route path="/product/:name" element={<ProductPage cart={cart} setCart={setCart} />} />
           <Route path="/cart" element={<CartPage cart={cart} setCart={setCart} />} />
+          <Route path="/account" element={<AccountPage />} />
+          <Route path="/signup" element={<Signup />} /> {/* Add Signup route */}
         </Routes>
       </div>
     </Router>

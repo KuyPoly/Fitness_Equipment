@@ -1,0 +1,109 @@
+.account-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-panel {
+    flex: 1;
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .gym-background {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/signup.png');
+  }
+  
+  .right-panel {
+    flex: 1;
+    background-color: #1c1c1c;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-box {
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .login-box h1 {
+    color: #ffc107;
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  
+  .login-box label {
+    text-align: left;
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ffc107;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 10px;
+    background-color: #2c2c2c;
+    border: 1px solid #ffc107;
+    color: #ffc107;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .login-btn {
+    width: 100%;
+    margin-top: 25px;
+    background-color: #ffc107;
+    color: black;
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #f5c518;
+    text-align: right;
+    text-decoration: none;
+  }
+  
+  .new-customer {
+    margin-top: 40px;
+    /* background-color: #2a2a2a; */
+    text-align: left;
+    padding: 20px;
+    /* border-radius: 8px; */
+  }
+  
+  .new-customer h2 {
+    color: #f5c518;
+    font-size: 1.2rem;
+  }
+  
+  .new-customer p {
+    font-size: 0.85rem;
+    color: white;
+    margin: 10px 0 20px;
+  }
+  
+  .register-btn {
+    background-color: #f5c518;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
