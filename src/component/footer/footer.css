@@ -1,0 +1,53 @@
+.footer {
+    background-color: #ffc107;
+    padding: 20px 40px;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.footer__section h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer__section p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer__icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.footer__icon:hover {
+    transform: scale(1.2);
+}
+
+.link-footer {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+.link-footer:hover {
+    text-decoration: underline;
+    color: white;
+}

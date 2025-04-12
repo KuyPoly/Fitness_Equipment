@@ -1,0 +1,114 @@
+
+.pro-card__item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 13px #ffc107;
+}
+
+.pro-card__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ffc107;
+}
+
+.pro-card__content {
+    padding: 15px;
+    text-align: left;
+    color: white;
+}
+
+.pro-card__name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pro-card__tagline {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #ffc107;
+}
+
+.pro-card__price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.pro-card__toggle {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.pro-card__toggle:hover {
+    background-color: #e0b800;
+}
+
+
+.pro-card {
+    margin: auto;
+    padding: 0 20px;
+    max-width: 1380px;
+}
+
+.pro-card__title {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: calc((100% - (min(100%, 1380px) - 40px)) / 2); /* Magic centering formula */
+    box-sizing: border-box;
+}
+
+.pro-card__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 30px;
+    justify-content: center; /* Center cards */
+}
+
+.pro-card__item {
+    flex: 0 0 calc(25% - 20px); /* 4 cards per row */
+    min-width: 250px;
+    max-width: 300px;
+    background-color: #242323;
+    border: 1px solid #ffc107;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .pro-card__item {
+        flex: 0 0 calc(33.333% - 20px); /* 3 cards per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .pro-card__item {
+        flex: 0 0 calc(50% - 20px); /* 2 cards per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .pro-card__item {
+        flex: 0 0 100%; /* 1 card per row */
+    }
+    .pro-card__title {
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+/* Keep all other existing styles... */

@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <nav className="navbar sticky-top navbar-expand-lg bg-warning">
       <div className="container-fluid">
-        <a className="navbar-brand fw-bold fs-3" href="#">PowerFitness</a>
+        <Link to={"/"} className='navbar-brand fw-bold fs-3'>PowerFitness</Link>
         <div className="d-flex align-items-center">
           {/* Small Screen Search Icon */}
           <div className="d-flex d-lg-none align-items-center me-2" ref={searchRef}>

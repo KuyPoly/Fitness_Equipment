@@ -3,6 +3,8 @@ import './home.css';
 import Landpage from '../../component/landpage/landpage';
 import PremiumCard from '../../component/premuimCard/premuimCard';
 import Wear from '../../component/wear/wear';
+import ProCard from '../../component/pro_card/pro_card';
+import Footer from '../../component/footer/footer';
 
 // Import images
 import pre1 from '../../assets/pre1.png';
@@ -25,6 +27,12 @@ export default function Home() {
                     </div>
                 </div>
                 <Wear />
+                <div className='home__bestseller__container'>
+                    <ProCard />
+                </div>
+                <div className="home__footer">
+                    <Footer />
+                </div>
             </div>
         </div>
     );
