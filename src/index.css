@@ -50,16 +50,18 @@ h6 {
 
 p {
   font-size: clamp(0.95rem, 1.8vw, 1.1rem);
-  line-height: 1.1;
+  line-height: 1.5;
 }
 
 /* Optional: Add margin control for better vertical rhythm */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0.35em;
   margin-bottom: 0.35em;
+  font-family: "Ubuntu", sans-serif;
 }
 
 p {
   margin-top: 0.75em;
   margin-bottom: 0.75em;
+  font-family: "Roboto Slab", sans-serif;
 }

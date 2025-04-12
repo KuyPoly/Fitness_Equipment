@@ -4,42 +4,113 @@
     margin: 30px auto;
     padding: 0 20px;
     padding-bottom: 30px;
-  }
-  
-  /* Left-aligned heading */
-  .home__premium-section h3 {
+    position: relative;
+}
+
+/* Left-aligned heading */
+.home__premium-section h3 {
     margin: 0 0 20px 0;
-    font-size: 1.8rem;
+    font-size: clamp(1.5rem, 4vw, 1.8rem);
     color: #fff;
     text-align: left;
     width: 100%;
-    padding-left: 10px; /* Adjust this to match card alignment */
-  }
-  
-  /* Cards container - keep your existing styles */
-  .home__premium-cards {
+}
+
+/* Carousel container */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Prevent content from overflowing */
+}
+
+/* Cards container - scrollable */
+.home__premium-cards {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 30px;
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 1024px) {
+    gap: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap; /* Prevent wrapping */
+    padding-bottom: 15px;
+    padding: 0 20px;
+}
+
+/* Prevent cards from wrapping */
+.home__premium-cards > * {
+    flex: 0 0 auto; /* Ensure cards don't shrink or grow */
+}
+
+/* Hide scrollbar */
+.home__premium-cards::-webkit-scrollbar {
+    display: none;
+}
+
+/* Navigation arrows */
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 193, 7, 0.8);
+    border-radius: 50%;
+    display: none; /* Hidden by default */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    opacity: 0.9;
+    transition: all 0.2s ease;
+}
+
+.carousel-arrow.prev {
+    left: 0;
+}
+
+.carousel-arrow.next {
+    right: 0;
+}
+
+.carousel-arrow:hover {
+    background: #ffc107;
+    opacity: 1;
+    transform: translateY(-50%) scale(1.05);
+}
+
+/* Show arrows when cards overflow */
+@media (max-width: 1199px) {
+    .carousel-arrow {
+        display: flex;
+    }
+    .carousel-arrow.prev {
+        left: -10px;
+    }
+    .carousel-arrow.next {
+        right: -10px;
+    }
+}
+
+/* Desktop layout - show as many cards as fit */
+@media (min-width: 1024px) {
     .home__premium-cards {
-      justify-content: flex-start; /* Keep left-aligned */
+        flex-wrap: nowrap; /* Prevent wrapping */
+        justify-content: flex-start;
+        overflow-x: visible;
+        scroll-snap-type: none;
+        padding: 0;
+        margin: 0;
     }
-    .home__premium-section h3 {
-      padding-left: 0; /* Remove padding when cards go full width */
-    }
-  }
-  
-  @media (max-width: 768px) {
+}
+
+/* If screen is wide enough for all 4 cards */
+@media (min-width: 1200px) {
     .home__premium-cards {
-      justify-content: center; /* Center cards on mobile */
+        justify-content: space-between;
     }
-    .home__premium-section h3 {
-      text-align: center; /* Center heading on mobile */
-      padding-left: 0;
+    .carousel-arrow {
+        display: none;
     }
-  }
+}

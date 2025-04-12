@@ -6,9 +6,9 @@ export default function Landpage() {
     return (
         <div className="landpage">
             <div className="landpage__bg"></div>
-            <div className="landpage__container">
+            <div className="landpage__container text-uppercase">
                 <h2>Ship over 900 home gym deals</h2>
-                <h1>Pain is temporary, but pride is forever</h1>
+                <h1 className="fst-italic fw-bolder">Pain is temporary, but pride is forever</h1>
                 <Link to="/racks" className="btn btn-warning rounded-0 border border-dark mt-4">Shop Now</Link>
             </div>
         </div>
