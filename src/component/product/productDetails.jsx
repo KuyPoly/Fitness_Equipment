@@ -1,7 +1,23 @@
-// src/components/ProductDetails.js
-import React from 'react';
+import React, { useState } from 'react';
+import Popup from '../cart/popup';
 
-const ProductDetails = ({ product }) => {
+const ProductDetails = ({ product, cart, setCart }) => {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const addToCart = () => {
+      setCart((prevCart) => {
+        const existingProduct = prevCart.find((item) => item.name === product.name);
+        if (existingProduct) {
+          return prevCart.map((item) =>
+              item.name === product.name ? { ...item, quantity: item.quantity + 1 } : item
+          );
+        }
+        return [...prevCart, { ...product, quantity: 1 }];
+      });
+
+      setShowPopup(true);
+    };
+
   return (
     <section className="product-highlight">
       <div className="highlight-left">
@@ -16,9 +32,10 @@ const ProductDetails = ({ product }) => {
         <p className="price"><strong>Price:</strong> {product.price}</p>
         <div className="product-buttons">
           <button className="buy-now">Buy Now</button>
-          <button className="add-to-cart">Add to Cart</button>
+          <button className="add-to-cart" onClick={addToCart}>Add to Cart</button>
         </div>
       </div>
+      {showPopup && <Popup message="Product added to cart!" onClose={() => setShowPopup(false)} />}
     </section>
   );
 };

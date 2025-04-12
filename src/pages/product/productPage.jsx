@@ -9,8 +9,9 @@ import barWeightData from '../../data/bar_weight.json';
 
 import ProductDetails from '../../component/product/productDetails'; // Corrected path
 import ProductCard from '../../component/product/productCard'; // Corrected path
+import Footer from '../../component/footer/footer'; // Import Footer
 
-const ProductPage = () => {
+const ProductPage = ({ cart, setCart }) => {
   const { name } = useParams();
   const allData = [...rackData, ...benchData, ...specialtyData, ...barWeightData];
   const product = allData.find((item) => item.name === name);
@@ -42,7 +43,7 @@ const ProductPage = () => {
   return (
     <div className="product-page">
       <main className="product-main">
-        <ProductDetails product={product} />
+      <ProductDetails product={product} cart={cart} setCart={setCart} />
 
         <section className="section">
           <h3>Recently Viewed</h3>
@@ -62,6 +63,7 @@ const ProductPage = () => {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 };

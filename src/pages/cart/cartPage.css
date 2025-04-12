@@ -1,0 +1,133 @@
+.cart-page {
+    padding: 2rem;
+    color: white;
+    background-color: #121212;
+    
+  }
+
+  .cart-page p{
+    color: #fff;
+  }
+  
+  .cart-page h1 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+  
+  .cart-table th,
+  .cart-table td {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    color: #fff;
+  }
+  
+  .cart-product {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .cart-product img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .cart-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cart-summary h3 {
+    font-size: 1.5rem;
+    color: #f7c400;
+  }
+  
+  .cart-summary button {
+    padding: 0.8rem 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .continue-shopping {
+    background-color: transparent; 
+    color: snow;
+    border: 2px solid #f7c400; /* Yellow border */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    margin-right: 10px;
+  }
+  
+  .order-now {
+    background-color: #f7c400;
+    color: black;
+    border: 2px solid black;
+  }
+  
+  .continue-shopping:hover,
+  .order-now:hover {
+    opacity: 0.85;
+  }
+
+/* Quantity Controls */
+.quantity-controls {
+  display: flex;
+  align-items: center; /* Vertically align the buttons and number */
+  justify-content: center; /* Center align the controls */
+  gap: 0.5rem; /* Add space between the buttons and number */
+}
+
+.quantity-controls button {
+  background-color: #f7c400; /* Yellow background */
+  color: black; /* Black text */
+  border: none; /* Remove border */
+  padding: 0.5rem 1rem; /* Add padding */
+  font-size: 1rem; /* Medium font size */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.quantity-controls button:hover {
+  opacity: 0.85; /* Slightly reduce opacity on hover */
+}
+
+.quantity-number {
+  font-size: 1rem; /* Medium font size */
+  font-weight: bold; /* Bold text */
+  color: white; /* White text */
+  min-width: 2rem; /* Ensure consistent width */
+  text-align: center; /* Center align the number */
+}
+
+/* Delete Button */
+.delete-btn {
+  background-color: transparent; /* Transparent background */
+  color: #f7c400; /* Yellow text */
+  border: 2px solid #f7c400; /* Yellow border */
+  padding: 0.5rem 1rem; /* Add padding */
+  font-size: 1rem; /* Medium font size */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.delete-btn:hover {
+  background-color: #f7c400; /* Yellow background on hover */
+  color: black; /* Black text on hover */
+}
+  

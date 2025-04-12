@@ -1,0 +1,29 @@
+.popup {
+    position: fixed;
+    bottom: 20px;
+    right: -300px; /* Start off-screen */
+    background-color: #f7c400; /* Match the color scheme */
+    color: #000;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 1rem;
+    animation: slide-in 0.5s forwards, fade-out 0.5s 2.5s forwards; /* Slide in and fade out */
+    z-index: 1000;
+  }
+  
+  @keyframes slide-in {
+    from {
+      right: -300px;
+    }
+    to {
+      right: 20px;
+    }
+  }
+  
+  @keyframes fade-out {
+    to {
+      opacity: 0;
+    }
+  }
