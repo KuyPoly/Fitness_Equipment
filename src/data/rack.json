@@ -4,6 +4,7 @@
       "tagline": "Heavy-Duty Power Rack for Serious Lifters",
       "description": "The Rep Fitness PR-5000 V2 is a robust power rack designed for advanced lifters. It features 3x3” 11-gauge steel uprights, laser-cut numbering, and a modular design allowing for extensive customization.",
       "dimensions": "80” x 47” x 93” (203cm x 119cm x 236cm)",
+      "price": "$1,199.00",
       "weight": "350 lbs (159kg)",
       "image": "https://www.gymequip.eu/wp-content/uploads/2016/05/Power-Rack.jpg"
     },
@@ -12,6 +13,7 @@
       "tagline": "Organize Your Gym Efficiently",
       "description": "Titan Fitness offers a versatile mass storage system to keep your gym equipment organized. It includes adjustable shelves suitable for kettlebells, dumbbells, and other accessories.",
       "dimensions": "72” x 24” x 72” (183cm x 61cm x 183cm)",
+      "price": "$249.00",
       "weight": "200 lbs (91kg)",
       "image": "https://fitness-discount.it/wp-content/uploads/2023/10/JKV_PCR-scaled.jpg"
     },
@@ -20,6 +22,7 @@
       "tagline": "Modular Storage and Training System",
       "description": "The Torque Fitness X-RACK is a customizable system combining storage and functional training. It supports various attachments and storage solutions for a comprehensive workout setup.",
       "dimensions": "Varies based on configuration",
+      "price": "$999.00",
       "weight": "Varies based on configuration",
       "image": "https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_828,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Power%20Racks%20/Monster%20Lite%20Racks/XX10965/XX10965-WEB1_qcpgvb_j3f1bc.png"
     },
@@ -28,6 +31,7 @@
       "tagline": "Space-Saving Wall-Mounted Rack",
       "description": "The PRx Performance Profile® Squat Rack is a foldable, wall-mounted rack ideal for home gyms with limited space. It offers a sturdy build and easy vertical folding mechanism.",
       "dimensions": "22” x 42” x 90” (56cm x 107cm x 229cm) when unfolded",
+      "price": "$499.00",
       "weight": "150 lbs (68kg)",
       "image": "https://prxperformance.com/cdn/shop/files/profile-racks-profile-pro-folding-squat-rack-2.png?v=1743454362"
     },
@@ -36,6 +40,7 @@
       "tagline": "Compact Dumbbell Storage Solution",
       "description": "Strencor's Vertical Dumbbell Rack provides a space-efficient way to store multiple pairs of dumbbells, featuring a sturdy steel frame and easy access design.",
       "dimensions": "24” x 20” x 50” (61cm x 51cm x 127cm)",
+      "price": "$199.00",
       "weight": "80 lbs (36kg)",
       "image": "https://energiefitness.in/cdn/shop/files/FullPowerRacksMWH-019.png?v=1700892690"
     },
@@ -44,6 +49,7 @@
       "tagline": "Heavy-Duty Dumbbell Storage",
       "description": "The Gtech Fitness 3-Tier Dumbbell Rack is designed for commercial and home gyms, offering ample space for a full set of dumbbells with its three-tier design.",
       "dimensions": "60” x 24” x 36” (152cm x 61cm x 91cm)",
+      "price": "$299.00",
       "weight": "120 lbs (54kg)",
       "image": "https://energiefitness.in/cdn/shop/files/FullPowerRacksMWH-019.png?v=1700892690"
     },
@@ -52,6 +58,7 @@
       "tagline": "Versatile Storage for Functional Equipment",
       "description": "Escape Fitness offers a multi-storage rack designed to hold various functional training equipment, including kettlebells, medicine balls, and resistance bands.",
       "dimensions": "72” x 36” x 72” (183cm x 91cm x 183cm)",
+      "price": "$399.00",
       "weight": "250 lbs (113kg)",
       "image": "https://cardioonline.com.au/cdn/shop/products/V420-LGST-GRK100-86854-01_1600x.jpg?v=1737164378"
     },
@@ -60,6 +67,7 @@
       "tagline": "A-Frame Design for Space Efficiency",
       "description": "York Barbell's A-Frame Dumbbell Rack offers a compact design to store multiple pairs of dumbbells, constructed with heavy-duty steel for durability.",
       "dimensions": "25” x 20” x 40” (64cm x 51cm x 102cm)",
+      "price": "$149.00",
       "weight": "70 lbs (32kg)",
       "image": "https://m.media-amazon.com/images/I/61FYQy7+KGL._AC_SL1500_.jpg"
     },
@@ -68,6 +76,7 @@
       "tagline": "High-Capacity Functional Storage",
       "description": "The MoveStrong Elite Storage Rack is designed to store a variety of functional training tools, featuring multiple shelves and attachment points.",
       "dimensions": "84” x 36” x 72” (213cm x 91cm x 183cm)",
+      "price": "$599.00",
       "weight": "300 lbs (136kg)",
       "image": "https://i5.walmartimages.com/seo/Mikolo-Power-Rack-Cage-Weight-Dual-Pulley-Cable-Crossover-Machine-Multi-Function-Squat-J-Hooks-Dip-Bars-Landmine-Home-Gym-Red_c5b197d4-eaba-4c2d-a650-37450597341e.ad0a1673474a3a988f8aeaaf512e9acc.jpeg"
     },
@@ -76,7 +85,17 @@
       "tagline": "Robust Storage for Powerbags and Balls",
       "description": "UK Gym Equipment's 3-Tier Horizontal Rack is built to store powerbags, medicine balls, and similar equipment, featuring a sturdy frame and easy access design.",
       "dimensions": "72” x 24” x 36” (183cm x 61cm x 91cm)",
+      "price": "$199.00",
       "weight": "150 lbs (68kg)",
+      "image": "https://i5.walmartimages.com/seo/Mikolo-Power-Rack-Cage-Weight-Dual-Pulley-Cable-Crossover-Machine-Multi-Function-Squat-J-Hooks-Dip-Bars-Landmine-Home-Gym-Red_c5b197d4-eaba-4c2d-a650-37450597341e.ad0a1673474a3a988f8aeaaf512e9acc.jpeg"
+    },
+    {
+      "name": "Titan Fitness Power Rack",
+      "tagline": "Heavy-Duty Power Rack for Home Gyms",
+      "description": "The Titan Fitness Power Rack is a versatile and durable power rack designed for home gyms. It features a sturdy steel frame, adjustable safety bars, and multiple pull-up options.",
+      "dimensions": "84” x 48” x 83” (213cm x 122cm x 211cm)",
+      "price": "$499.00",
+      "weight": "250 lbs (113kg)",
       "image": "https://i5.walmartimages.com/seo/Mikolo-Power-Rack-Cage-Weight-Dual-Pulley-Cable-Crossover-Machine-Multi-Function-Squat-J-Hooks-Dip-Bars-Landmine-Home-Gym-Red_c5b197d4-eaba-4c2d-a650-37450597341e.ad0a1673474a3a988f8aeaaf512e9acc.jpeg"
     }
   ]

@@ -1,0 +1,16 @@
+.bg-yellow {
+    background-color: #FFC700;
+}
+.font-bold{
+    font-weight: 500;
+}
+.flex {
+    display: flex;
+    gap: 10px; /* Add spacing between buttons */
+    margin-left: 100px;
+    align-items: center; 
+}
+.flex button:last-child {
+    background-color: #ffc80088;
+    margin-left: 20em; /* Remove margin for the last button */
+}
