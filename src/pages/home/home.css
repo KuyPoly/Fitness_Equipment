@@ -4,114 +4,42 @@
     margin: 30px auto;
     padding: 0 20px;
     padding-bottom: 30px;
-    position: relative;
-}
-
-/* Left-aligned heading */
-.home__premium-section h3 {
+  }
+  
+  /* Left-aligned heading */
+  .home__premium-section h3 {
     margin: 0 0 20px 0;
-    font-size: clamp(1.5rem, 4vw, 1.8rem);
+    font-size: 1.8rem;
     color: #fff;
     text-align: left;
     width: 100%;
-}
-
-/* Carousel container */
-.carousel-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden; /* Prevent content from overflowing */
-}
-
-/* Cards container - scrollable */
-.home__premium-cards {
+    padding-left: 10px; /* Adjust this to match card alignment */
+  }
+  
+  /* Cards container - keep your existing styles */
+  .home__premium-cards {
     display: flex;
-    gap: 20px;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-    white-space: nowrap; /* Prevent wrapping */
-    padding-bottom: 15px;
-    padding: 0 20px;
-}
-
-/* Prevent cards from wrapping */
-.home__premium-cards > * {
-    flex: 0 0 auto; /* Ensure cards don't shrink or grow */
-}
-
-/* Hide scrollbar */
-.home__premium-cards::-webkit-scrollbar {
-    display: none;
-}
-
-/* Navigation arrows */
-.carousel-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40px;
-    height: 40px;
-    background: rgba(255, 193, 7, 0.8);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    z-index: 2; /* Ensure arrows are above other elements */
-    border: none;
-    color: white;
-    font-size: 1.5rem;
-    opacity: 0.9;
-    transition: all 0.2s ease;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
-}
-
-.carousel-arrow.prev {
-    left: 10px; /* Adjust to ensure it's fully visible */
-}
-
-.carousel-arrow.next {
-    right: 10px; /* Adjust to ensure it's fully visible */
-}
-
-.carousel-arrow:hover {
-    background: #ffc107;
-    opacity: 1;
-    transform: translateY(-50%) scale(1.05);
-}
-
-/* Show arrows when cards overflow */
-@media (max-width: 1199px) {
-    .carousel-arrow {
-        display: flex;
-    }
-    .carousel-arrow.prev {
-        left: 10px; /* Ensure visibility on smaller screens */
-    }
-    .carousel-arrow.next {
-        right: 10px; /* Ensure visibility on smaller screens */
-    }
-}
-
-/* Desktop layout - show as many cards as fit */
-@media (min-width: 1024px) {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1024px) {
     .home__premium-cards {
-        flex-wrap: nowrap; /* Prevent wrapping */
-        justify-content: flex-start;
-        overflow-x: visible;
-        scroll-snap-type: none;
-        padding: 0;
-        margin: 0;
+      justify-content: flex-start; /* Keep left-aligned */
     }
-}
-
-/* If screen is wide enough for all 4 cards */
-@media (min-width: 1200px) {
+    .home__premium-section h3 {
+      padding-left: 0; /* Remove padding when cards go full width */
+    }
+  }
+  
+  @media (max-width: 768px) {
     .home__premium-cards {
-        justify-content: space-between;
+      justify-content: center; /* Center cards on mobile */
     }
-    .carousel-arrow {
-        display: none;
+    .home__premium-section h3 {
+      text-align: center; /* Center heading on mobile */
+      padding-left: 0;
     }
-}
+  }

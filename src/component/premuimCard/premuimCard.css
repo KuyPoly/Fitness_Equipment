@@ -2,7 +2,7 @@
     flex: 1 1 calc(25% - 30px); /* 4 cards per row by default with gap accounted for */
     min-width: 250px; /* Minimum card width */
     max-width: 300px; /* Maximum card width */
-    height: 380px;
+    height: 330px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end; /* Push content to the bottom */
