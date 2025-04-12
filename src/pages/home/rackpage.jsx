@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./rackpage.css";
-import FilterBar from "./filterBar"; // Import the FilterBar component
+import FilterBar from "../../component/rackpage/filterBar"; // Import the FilterBar component
 import rackData from "../../data/rack.json"; // Example JSON data for racks
 
 export default function Rackpage() {
