@@ -1,24 +1,28 @@
 .rackpage {
+    display: flex;
+    flex-direction: column;
     background-color: #252424;
     height: 100vh;
     color: white;
+    align-items: baseline;
 }
 
 .title{
     display: flex;
-    margin-left: 100px;
+    padding-left: 100px;
 }
 .desc{
     display: flex;
-    margin-left: 100px;
     font-weight: bold;
+    padding-left: 100px;
 
 }
 .desc__text{
     display: flex;
     width: 85%;
-    margin-left: 100px;
     font-weight: 350;
     text-align: left;
     color: white;
+    padding-left: 100px;
 }
+

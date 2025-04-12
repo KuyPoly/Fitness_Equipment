@@ -7,10 +7,23 @@
 .flex {
     display: flex;
     gap: 10px; /* Add spacing between buttons */
-    margin-left: 100px;
-    align-items: center; 
+    align-items: center;
+    padding-left: 100px; 
 }
-.flex button:last-child {
-    background-color: #ffc80088;
-    margin-left: 20em; /* Remove margin for the last button */
+button {
+    transition: background-color 0.3s ease;
+}
+
+.bg-yellow {
+    background-color: #ffc700;
+    color: black;
+}
+
+.bg-gray {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+button:hover {
+    opacity: 0.8;
 }

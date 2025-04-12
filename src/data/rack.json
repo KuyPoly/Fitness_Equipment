@@ -36,24 +36,6 @@
       "image": "https://prxperformance.com/cdn/shop/files/profile-racks-profile-pro-folding-squat-rack-2.png?v=1743454362"
     },
     {
-      "name": "Strencor Vertical Dumbbell Rack",
-      "tagline": "Compact Dumbbell Storage Solution",
-      "description": "Strencor's Vertical Dumbbell Rack provides a space-efficient way to store multiple pairs of dumbbells, featuring a sturdy steel frame and easy access design.",
-      "dimensions": "24” x 20” x 50” (61cm x 51cm x 127cm)",
-      "price": "$199.00",
-      "weight": "80 lbs (36kg)",
-      "image": "https://energiefitness.in/cdn/shop/files/FullPowerRacksMWH-019.png?v=1700892690"
-    },
-    {
-      "name": "Gtech Fitness 3-Tier Dumbbell Rack",
-      "tagline": "Heavy-Duty Dumbbell Storage",
-      "description": "The Gtech Fitness 3-Tier Dumbbell Rack is designed for commercial and home gyms, offering ample space for a full set of dumbbells with its three-tier design.",
-      "dimensions": "60” x 24” x 36” (152cm x 61cm x 91cm)",
-      "price": "$299.00",
-      "weight": "120 lbs (54kg)",
-      "image": "https://energiefitness.in/cdn/shop/files/FullPowerRacksMWH-019.png?v=1700892690"
-    },
-    {
       "name": "Escape Fitness Multi-Storage Rack",
       "tagline": "Versatile Storage for Functional Equipment",
       "description": "Escape Fitness offers a multi-storage rack designed to hold various functional training equipment, including kettlebells, medicine balls, and resistance bands.",
@@ -79,42 +61,6 @@
       "price": "$599.00",
       "weight": "300 lbs (136kg)",
       "image": "https://i5.walmartimages.com/seo/Mikolo-Power-Rack-Cage-Weight-Dual-Pulley-Cable-Crossover-Machine-Multi-Function-Squat-J-Hooks-Dip-Bars-Landmine-Home-Gym-Red_c5b197d4-eaba-4c2d-a650-37450597341e.ad0a1673474a3a988f8aeaaf512e9acc.jpeg"
-    },
-    {
-      "name": "UK Gym Equipment 3-Tier Horizontal Rack",
-      "tagline": "Robust Storage for Powerbags and Balls",
-      "description": "UK Gym Equipment's 3-Tier Horizontal Rack is built to store powerbags, medicine balls, and similar equipment, featuring a sturdy frame and easy access design.",
-      "dimensions": "72” x 24” x 36” (183cm x 61cm x 91cm)",
-      "price": "$199.00",
-      "weight": "150 lbs (68kg)",
-      "image": "https://i5.walmartimages.com/seo/Mikolo-Power-Rack-Cage-Weight-Dual-Pulley-Cable-Crossover-Machine-Multi-Function-Squat-J-Hooks-Dip-Bars-Landmine-Home-Gym-Red_c5b197d4-eaba-4c2d-a650-37450597341e.ad0a1673474a3a988f8aeaaf512e9acc.jpeg"
-    },
-    {
-      "name": "Titan Fitness Power Rack",
-      "tagline": "Heavy-Duty Power Rack for Home Gyms",
-      "description": "The Titan Fitness Power Rack is a versatile and durable power rack designed for home gyms. It features a sturdy steel frame, adjustable safety bars, and multiple pull-up options.",
-      "dimensions": "84” x 48” x 83” (213cm x 122cm x 211cm)",
-      "price": "$499.00",
-      "weight": "250 lbs (113kg)",
-      "image": "https://i5.walmartimages.com/seo/Mikolo-Power-Rack-Cage-Weight-Dual-Pulley-Cable-Crossover-Machine-Multi-Function-Squat-J-Hooks-Dip-Bars-Landmine-Home-Gym-Red_c5b197d4-eaba-4c2d-a650-37450597341e.ad0a1673474a3a988f8aeaaf512e9acc.jpeg"
-    },
-    {
-      "name": "Strencor Vertical Dumbbell Rack",
-      "tagline": "Compact Dumbbell Storage Solution",
-      "description": "Strencor's Vertical Dumbbell Rack provides a space-efficient way to store multiple pairs of dumbbells, featuring a sturdy steel frame and easy access design.",
-      "dimensions": "24” x 20” x 50” (61cm x 51cm x 127cm)",
-      "price": "$199.00",
-      "weight": "80 lbs (36kg)",
-      "image": "https://energiefitness.in/cdn/shop/files/FullPowerRacksMWH-019.png?v=1700892690"
-    },
-    {
-      "name": "Strencor Vertical Dumbbell Rack",
-      "tagline": "Compact Dumbbell Storage Solution",
-      "description": "Strencor's Vertical Dumbbell Rack provides a space-efficient way to store multiple pairs of dumbbells, featuring a sturdy steel frame and easy access design.",
-      "dimensions": "24” x 20” x 50” (61cm x 51cm x 127cm)",
-      "price": "$199.00",
-      "weight": "80 lbs (36kg)",
-      "image": "https://energiefitness.in/cdn/shop/files/FullPowerRacksMWH-019.png?v=1700892690"
     },
     {
       "name": "Strencor Vertical Dumbbell Rack",
@@ -160,6 +106,150 @@
       "price": "$299.00",
       "weight": "120 lbs (54kg)",
       "image": "https://energiefitness.in/cdn/shop/files/FullPowerRacksMWH-019.png?v=1700892690"
+    },
+    {
+      "name": "Ponytail Cap",
+      "tagline": "Comfortable and Stylish Headwear",
+      "description": "The Ponytail Cap is designed for comfort and style, featuring a unique opening for ponytails and a breathable fabric for all-day wear.",
+      "dimensions": "One size fits most",
+      "price": "$25.00",
+      "image": "https://cdn.shopify.com/s/files/1/1367/5207/products/PonytailCapBlackI2A1C-BBBB.163_1920x.jpg?v=1681723516",
+      "category": "headwear"
+    },
+    {
+      "name": "Crew Socks",
+      "tagline": "Comfortable and Durable Socks",
+      "description": "The Crew Socks are designed for comfort and durability, featuring a cushioned sole and breathable fabric for all-day wear.",
+      "dimensions": "One size fits most",
+      "price": "$15.00",
+      "image": "https://www.famousfootwear.com/blob/product-images/20000/36/77/4/36774_front_feed1000.jpg",
+      "category": "footer"
+    },
+    {
+      "name": "Gym Bag 20L Black",
+      "tagline": "Durable and Spacious Gym Bag",
+      "description": "The Gym Bag 20L Black is designed for durability and spaciousness, featuring multiple compartments for organization and a comfortable shoulder strap.",
+      "dimensions": "20L capacity",
+      "price": "$50.00",
+      "image": "https://contents.mediadecathlon.com/p2038081/k$2375f49e688f12688078c456f5973b29/fitness-bag-20l-black.jpg?format=auto&quality=70&f=1366x1366",
+      "category": "bags"
+    },
+    {
+      "name": "TWL - MEN'S FLEX SHORTS - BLACK",
+      "tagline": "Comfortable and Stylish Shorts",
+      "description": "The TWL - MEN'S FLEX SHORTS - BLACK are designed for comfort and style, featuring a flexible waistband and breathable fabric for all-day wear.",
+      "dimensions": "Available in various sizes",
+      "price": "$40.00",
+      "image": "https://twl.com.au/cdn/shop/files/Squared_0129_TWL_FLEXSHORTS_BLACK_8292_TWL23cestari_8b6d07a2-f84d-4852-9c7f-c0def447db79.jpg?v=1713242058&width=1800",
+      "category": "apparel"
+    },
+    {
+      "name": "Womens' Sports Bra",
+      "tagline": "Comfortable and Supportive Sports Bra",
+      "description": "The Womens' Sports Bra is designed for comfort and support, featuring moisture-wicking fabric and adjustable straps for a personalized fit.",
+      "dimensions": "Available in various sizes", 
+      "price": "$30.00",
+      "image": "https://m.media-amazon.com/images/I/61smU60g+VL._AC_SX679_.jpg",
+      "category": "apparel"
+    },
+    {
+      "name": "Mens Shorts",
+      "tagline": "Comfortable and Supportive Sports Bra",
+      "description": "The Womens' Sports Bra is designed for comfort and support, featuring moisture-wicking fabric and adjustable straps for a personalized fit.",
+      "dimensions": "Available in various sizes", 
+      "price": "$40.00",
+      "image": "https://m.media-amazon.com/images/I/716A1Qb6zXL._AC_SX466_.jpg",
+      "category": "apparel"
+    },
+    {
+      "name": "Padded Seamless",
+      "tagline": "Comfortable and Supportive Sports Bra",
+      "description": "The Womens' Sports Bra is designed for comfort and support, featuring moisture-wicking fabric and adjustable straps for a personalized fit.",
+      "dimensions": "Available in various sizes", 
+      "price": "$29.00",
+      "image": "https://m.media-amazon.com/images/I/81mneGjYTEL._AC_SX679_.jpg",
+      "category": "apparel"
+    },
+    {
+      "name": "Head band",
+      "tagline": "Comfortable and Stylish Headwear",
+      "description": "The Head band is designed for comfort and style, featuring a soft and breathabl e fabric for all-day wear.",
+      "dimensions": "One size fits most",
+      "price": "$15.00",
+      "image": "https://asrv.com/cdn/shop/files/9FORTY_BLACK-WHITE-LEFT3QUARTER_400x.jpg?v=1707948379",
+      "category": "headwear"
+    },
+    {
+      "name": "Merino Wool Skull Cap",
+      "tagline": "Comfortable and Stylish Headwear",
+      "description": "The Head band is designed for comfort and style, featuring a soft and breathabl e fabric for all-day wear.",
+      "dimensions": "One size fits most",
+      "price": "$15.00",
+      "image": "https://asrv.com/cdn/shop/files/0936_Bracket_400x.jpg?v=1701994093",
+      "category": "headwear"
+    },
+    {
+      "name": "Merino Wool Skull Cap",
+      "tagline": "Comfortable and Stylish Headwear",
+      "description": "The Head band is designed for comfort and style, featuring a soft and breathabl e fabric for all-day wear.",
+      "dimensions": "One size fits most",
+      "price": "$19.00",
+      "image": "https://asrv.com/cdn/shop/files/0936_White-Bracket_1200x.jpg?v=1712774781",
+      "category": "headwear"
+    },
+    {
+      "name": "Nike Everyday Lightweight",
+      "tagline": "Comfortable and Stylish Headwear",
+      "description": "The Head band is designed for comfort and style, featuring a soft and breathabl e fabric for all-day wear.",
+      "dimensions": "One size fits most",
+      "price": "$19.00",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/gffibzzmtmhe5ldjkiwv/U+NK+ED+LTWT+ANKLE+3P+132.png",
+      "category": "footer"
+    },
+    {
+      "name": "Nike Unicorns",
+      "tagline": "Comfortable and Stylish Headwear",
+      "description": "The Head band is designed for comfort and style, featuring a soft and breathabl e fabric for all-day wear.",
+      "dimensions": "One size fits most",
+      "price": "$20.00",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e4ef012e-68ad-42b1-899f-704fb0ed5620/U+NK+UNICORN+CSH+CRW+1PR+-+160.png",
+      "category": "footer"
+    },
+    {
+      "name": "Training Ankle Socks",
+      "tagline": "Comfortable and Stylish Headwear",
+      "description": "The Head band is designed for comfort and style, featuring a soft and breathabl e fabric for all-day wear.",
+      "dimensions": "One size fits most",
+      "price": "$20.00",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/37746bfe-ed79-4e0c-b168-13977b3b19c4/U+NK+EVERYDAY+ANKLE+1PK+-+144.png",
+      "category": "footer"
+    },
+    {
+      "name": "Gym Bag Waterproof Fitness Bag",
+      "tagline": "Comfortable and Stylish Headwear",
+      "description": "The Head band is designed for comfort and style, featuring a soft and breathabl e fabric for all-day wear.",
+      "dimensions": "One size fits most",
+      "price": "$20.00",
+      "image": "https://www.bing.com/th?id=OPHS.g8W%2bxBTlogjDCQ474C474&o=5&pid=21.1&w=148&h=148&qlt=100&dpr=1.3&bw=6&bc=FFFFFF",
+      "category": "bags"
+    },
+    {
+      "name": "Gym Bag Waterproof Fitness Bag",
+      "tagline": "Comfortable and Stylish Headwear",
+      "description": "The Head band is designed for comfort and style, featuring a soft and breathabl e fabric for all-day wear.",
+      "dimensions": "One size fits most",
+      "price": "$20.00",
+      "image": "https://www.bing.com/th?id=OPHS.QPvsiBbN6D%2bAQw474C474&o=5&pid=21.1&w=148&h=148&qlt=100&dpr=1.3&bw=6&bc=FFFFFF",
+      "category": "bags"
+    },
+    {
+      "name": "New Magnetic Gym Bag",
+      "tagline": "Comfortable and Stylish Headwear",
+      "description": "The Head band is designed for comfort and style, featuring a soft and breathabl e fabric for all-day wear.",
+      "dimensions": "One size fits most",
+      "price": "$39.00",
+      "image": "https://i.ebayimg.com/images/g/EcMAAOSwi2xntqxu/s-l500.webp",
+      "category": "bags"
     }
-  ]
+]
   
