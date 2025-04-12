@@ -54,24 +54,25 @@
     height: 40px;
     background: rgba(255, 193, 7, 0.8);
     border-radius: 50%;
-    display: none; /* Hidden by default */
+    display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    z-index: 1;
+    z-index: 2; /* Ensure arrows are above other elements */
     border: none;
     color: white;
     font-size: 1.5rem;
     opacity: 0.9;
     transition: all 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
 }
 
 .carousel-arrow.prev {
-    left: 0;
+    left: 10px; /* Adjust to ensure it's fully visible */
 }
 
 .carousel-arrow.next {
-    right: 0;
+    right: 10px; /* Adjust to ensure it's fully visible */
 }
 
 .carousel-arrow:hover {
@@ -86,10 +87,10 @@
         display: flex;
     }
     .carousel-arrow.prev {
-        left: -10px;
+        left: 10px; /* Ensure visibility on smaller screens */
     }
     .carousel-arrow.next {
-        right: -10px;
+        right: 10px; /* Ensure visibility on smaller screens */
     }
 }
 

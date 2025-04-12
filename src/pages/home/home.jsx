@@ -35,7 +35,7 @@ export default function Home() {
               &lt;
             </button>
             <div className="home__premium-cards" ref={carouselRef}>
-              <PremiumCard name="Gym Racks" link="/" pic={pre1} />
+              <PremiumCard name="Gym Racks" link="/rackpage" pic={pre1} />
               <PremiumCard name="Weight Bench" link="/" pic={pre2} />
               <PremiumCard name="Bar&Weight" link="/" pic={pre3} />
               <PremiumCard name="Specialty Machines" link="/" pic={pre4} />
