@@ -1,84 +1,92 @@
 [
-    {
-      "name": "REP Fitness AB-5000 ZeroGap Adjustable Bench",
-      "tagline": "Precision Engineering Meets Versatility",
-      "description": "The AB-5000 ZeroGap Adjustable Bench from REP Fitness features a patented ZeroGap seat adjustment, 7 back pad angles, and 3 seat pad angles, providing a stable and customizable platform for various exercises.",
-      "dimensions": "59” x 22” x 17.5” (150cm x 56cm x 44cm)",
-      "weight": "110 lbs (50kg)",
-      "image": "https://i5.walmartimages.com/seo/Mikolo-Power-Rack-Cage-Weight-Dual-Pulley-Cable-Crossover-Machine-Multi-Function-Squat-J-Hooks-Dip-Bars-Landmine-Home-Gym-Red_c5b197d4-eaba-4c2d-a650-37450597341e.ad0a1673474a3a988f8aeaaf512e9acc.jpeg"
-    },
-    {
-      "name": "Ironmaster Super Bench PRO V2",
-      "tagline": "Compact Design with Maximum Flexibility",
-      "description": "The Super Bench PRO V2 by Ironmaster offers 11 adjustable angles, a low profile height of 17.2 inches in flat position, and compatibility with various attachments, making it ideal for home gyms with limited space.",
-      "dimensions": "47” x 20.75” x 17.2” (119cm x 53cm x 44cm)",
-      "weight": "65 lbs (29kg)",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgGv5Fyxcovi86gX8N_uZNpeAAssALotk7Uw&s"
-    },
-    {
-      "name": "Marcy MD-857 Olympic Weight Bench",
-      "tagline": "All-in-One Strength Training Station",
-      "description": "The Marcy MD-857 Olympic Weight Bench combines a preacher curl pad, leg developer, and adjustable back pad, offering a comprehensive solution for full-body workouts.",
-      "dimensions": "80” x 47.5” x 60” (203cm x 121cm x 152cm)",
-      "weight": "115 lbs (52kg)",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgGv5Fyxcovi86gX8N_uZNpeAAssALotk7Uw&s"
-    },
-    {
-      "name": "Bowflex 5.1S Stowable Bench",
-      "tagline": "Space-Saving Design with Multiple Angles",
-      "description": "The Bowflex 5.1S Stowable Bench offers 6 adjustable positions, a 600-pound load capacity, and a unique folding design for easy storage, making it perfect for home gyms.",
-      "dimensions": "61.3” x 28.1” x 49.5” (156cm x 71cm x 126cm)",
-      "weight": "70 lbs (32kg)",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgGv5Fyxcovi86gX8N_uZNpeAAssALotk7Uw&s"
-    },
-    {
-      "name": "Rogue Adjustable Bench 3.0",
-      "tagline": "Heavy-Duty Construction for Serious Lifters",
-      "description": "The Rogue Adjustable Bench 3.0 features a 3x3” 11-gauge steel frame, 10 back pad positions, and 3 seat positions, providing unmatched stability and versatility for intense workouts.",
-      "dimensions": "56.5” x 24.5” x 17.5” (143cm x 62cm x 44cm)",
-      "weight": "125 lbs (57kg)",
-      "image": "https://wolverson-fitness.co.uk/cdn/shop/files/heavy-adjustable-gif2-min.jpg?v=1711448073"
-    },
-    {
-      "name": "Technogym Element+ Adjustable Bench",
-      "tagline": "Sleek Design with Professional Performance",
-      "description": "The Element+ Adjustable Bench from Technogym offers a modern aesthetic with 6 backrest positions and 3 seat positions, suitable for a variety of strength training exercises.",
-      "dimensions": "52” x 22” x 18” (132cm x 56cm x 46cm)",
-      "weight": "77 lbs (35kg)",
-      "image": "https://wolverson-fitness.co.uk/cdn/shop/files/heavy-adjustable-gif2-min.jpg?v=1711448073"
-    },
-    {
-      "name": "Everfit 9-in-1 Weight Bench",
-      "tagline": "Multi-Function Power Station",
-      "description": "The Everfit 9-in-1 Weight Bench combines a bench press, leg developer, preacher curl, and more, offering a comprehensive workout solution in a compact design.",
-      "dimensions": "70” x 24” x 50” (178cm x 61cm x 127cm)",
-      "weight": "90 lbs (41kg)",
-      "image": "https://m.media-amazon.com/images/I/71TJTB8wFUL._AC_UF1000,1000_QL80_.jpg"
-    },
-    {
-      "name": "Best Choice Products Adjustable Folding Weight Bench",
-      "tagline": "Versatile Bench for Home Gyms",
-      "description": "This adjustable folding weight bench offers multiple incline positions, a sturdy steel frame, and a foldable design for easy storage, making it ideal for home fitness enthusiasts.",
-      "dimensions": "58” x 27” x 48” (147cm x 69cm x 122cm)",
-      "weight": "45 lbs (20kg)",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsAgQqKMVWeudVah5bYQ7eyd6FUMXeq2NOwqERjg16WBDa-S3JDSGbAeCN-mMM3hx15kU&usqp=CAU"
-    },
-    {
-      "name": "VIBESPARK Adjustable Weight Bench",
-      "tagline": "4-in-1 Foldable Workout Bench Set",
-      "description": "The VIBESPARK Adjustable Weight Bench features a 600lbs capacity, multiple backrest positions, and includes resistance bands, providing a full-body workout solution.",
-      "dimensions": "60” x 26” x 50” (152cm x 66cm x 127cm)",
-      "weight": "55 lbs (25kg)",
-      "image": "https://gymdirect.com.au/cdn/shop/files/3_b1a2f5f3-dbee-46db-a6d4-d2a9d19d0cbe.png?v=1704777452&width=1946"
-    },
-    {
-      "name": "York Barbell FTS Flat Bench",
-      "tagline": "Durable Flat Bench for Various Exercises",
-      "description": "The York Barbell FTS Flat Bench offers a sturdy steel frame and comfortable padding, suitable for a wide range of strength training exercises.",
-      "dimensions": "48” x 24” x 18” (122cm x 61cm x 46cm)",
-      "weight": "60 lbs (27kg)",
-      "image": "https://gymdirect.com.au/cdn/shop/files/3_b1a2f5f3-dbee-46db-a6d4-d2a9d19d0cbe.png?v=1704777452&width=1946"
-    }
+  {
+    "name": "REP Fitness AB-5000 ZeroGap Adjustable Bench",
+    "tagline": "Precision Engineering Meets Versatility",
+    "description": "The AB-5000 ZeroGap Adjustable Bench from REP Fitness features a patented ZeroGap seat adjustment, 7 back pad angles, and 3 seat pad angles, providing a stable and customizable platform for various exercises.",
+    "dimensions": "59” x 22” x 17.5” (150cm x 56cm x 44cm)",
+    "weight": "110 lbs (50kg)",
+    "image": "https://i5.walmartimages.com/seo/Mikolo-Power-Rack-Cage-Weight-Dual-Pulley-Cable-Crossover-Machine-Multi-Function-Squat-J-Hooks-Dip-Bars-Landmine-Home-Gym-Red_c5b197d4-eaba-4c2d-a650-37450597341e.ad0a1673474a3a988f8aeaaf512e9acc.jpeg",
+    "price": "$795"
+  },
+  {
+    "name": "Ironmaster Super Bench PRO V2",
+    "tagline": "Compact Design with Maximum Flexibility",
+    "description": "The Super Bench PRO V2 by Ironmaster offers 11 adjustable angles, a low profile height of 17.2 inches in flat position, and compatibility with various attachments, making it ideal for home gyms with limited space.",
+    "dimensions": "47” x 20.75” x 17.2” (119cm x 53cm x 44cm)",
+    "weight": "65 lbs (29kg)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgGv5Fyxcovi86gX8N_uZNpeAAssALotk7Uw&s",
+    "price": "$293"
+  },
+  {
+    "name": "Marcy MD-857 Olympic Weight Bench",
+    "tagline": "All-in-One Strength Training Station",
+    "description": "The Marcy MD-857 Olympic Weight Bench combines a preacher curl pad, leg developer, and adjustable back pad, offering a comprehensive solution for full-body workouts.",
+    "dimensions": "80” x 47.5” x 60” (203cm x 121cm x 152cm)",
+    "weight": "115 lbs (52kg)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgGv5Fyxcovi86gX8N_uZNpeAAssALotk7Uw&s",
+    "price": "$681"
+  },
+  {
+    "name": "Bowflex 5.1S Stowable Bench",
+    "tagline": "Space-Saving Design with Multiple Angles",
+    "description": "The Bowflex 5.1S Stowable Bench offers 6 adjustable positions, a 600-pound load capacity, and a unique folding design for easy storage, making it perfect for home gyms.",
+    "dimensions": "61.3” x 28.1” x 49.5” (156cm x 71cm x 126cm)",
+    "weight": "70 lbs (32kg)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgGv5Fyxcovi86gX8N_uZNpeAAssALotk7Uw&s",
+    "price": "$661"
+  },
+  {
+    "name": "Rogue Adjustable Bench 3.0",
+    "tagline": "Heavy-Duty Construction for Serious Lifters",
+    "description": "The Rogue Adjustable Bench 3.0 features a 3x3” 11-gauge steel frame, 10 back pad positions, and 3 seat positions, providing unmatched stability and versatility for intense workouts.",
+    "dimensions": "56.5” x 24.5” x 17.5” (143cm x 62cm x 44cm)",
+    "weight": "125 lbs (57kg)",
+    "image": "https://wolverson-fitness.co.uk/cdn/shop/files/heavy-adjustable-gif2-min.jpg?v=1711448073",
+    "price": "$321"
+  },
+  {
+    "name": "Technogym Element+ Adjustable Bench",
+    "tagline": "Sleek Design with Professional Performance",
+    "description": "The Element+ Adjustable Bench from Technogym offers a modern aesthetic with 6 backrest positions and 3 seat positions, suitable for a variety of strength training exercises.",
+    "dimensions": "52” x 22” x 18” (132cm x 56cm x 46cm)",
+    "weight": "77 lbs (35kg)",
+    "image": "https://wolverson-fitness.co.uk/cdn/shop/files/heavy-adjustable-gif2-min.jpg?v=1711448073",
+    "price": "$388"
+  },
+  {
+    "name": "Everfit 9-in-1 Weight Bench",
+    "tagline": "Multi-Function Power Station",
+    "description": "The Everfit 9-in-1 Weight Bench combines a bench press, leg developer, preacher curl, and more, offering a comprehensive workout solution in a compact design.",
+    "dimensions": "70” x 24” x 50” (178cm x 61cm x 127cm)",
+    "weight": "90 lbs (41kg)",
+    "image": "https://m.media-amazon.com/images/I/71TJTB8wFUL._AC_UF1000,1000_QL80_.jpg",
+    "price": "$354"
+  },
+  {
+    "name": "Adjustable Folding Weight Bench",
+    "tagline": "Versatile Bench for Home Gyms",
+    "description": "This adjustable folding weight bench offers multiple incline positions, a sturdy steel frame, and a foldable design for easy storage, making it ideal for home fitness enthusiasts.",
+    "dimensions": "58” x 27” x 48” (147cm x 69cm x 122cm)",
+    "weight": "45 lbs (20kg)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsAgQqKMVWeudVah5bYQ7eyd6FUMXeq2NOwqERjg16WBDa-S3JDSGbAeCN-mMM3hx15kU&usqp=CAU",
+    "price": "$499"
+  },
+  {
+    "name": "VIBESPARK Adjustable Weight Bench",
+    "tagline": "4-in-1 Foldable Workout Bench Set",
+    "description": "The VIBESPARK Adjustable Weight Bench features a 600lbs capacity, multiple backrest positions, and includes resistance bands, providing a full-body workout solution.",
+    "dimensions": "60” x 26” x 50” (152cm x 66cm x 127cm)",
+    "weight": "55 lbs (25kg)",
+    "image": "https://gymdirect.com.au/cdn/shop/files/3_b1a2f5f3-dbee-46db-a6d4-d2a9d19d0cbe.png?v=1704777452&width=1946",
+    "price": "$273"
+  },
+  {
+    "name": "York Barbell FTS Flat Bench",
+    "tagline": "Durable Flat Bench for Various Exercises",
+    "description": "The York Barbell FTS Flat Bench offers a sturdy steel frame and comfortable padding, suitable for a wide range of strength training exercises.",
+    "dimensions": "48” x 24” x 18” (122cm x 61cm x 46cm)",
+    "weight": "60 lbs (27kg)",
+    "image": "https://gymdirect.com.au/cdn/shop/files/3_b1a2f5f3-dbee-46db-a6d4-d2a9d19d0cbe.png?v=1704777452&width=1946",
+    "price": "$552"
+  }
 ]
-   
-  

@@ -1,74 +1,187 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #242323;
-    color: white;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .product-header {
-    background-color: #ffc107;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .product-header h1 {
-    margin: 0;
-  }
-  
-  .product-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .product-header nav ul li {
-    cursor: pointer;
-  }
-  
-  .product-main {
-    padding: 20px;
-  }
-  
-  .product-highlight {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 40px;
-  }
-  
-  .product-highlight img {
-    max-width: 300px;
-    border-radius: 10px;
-  }
-  
-  .product-info h2 {
-    margin: 0;
-  }
-  
-  .product-buttons button {
-    margin-right: 10px;
-    padding: 10px 20px;
-    background-color: #ffc107;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .recently-viewed, .best-seller {
-    margin-bottom: 40px;
-  }
-  
-  .recently-viewed-cards, .best-seller-cards {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .card {
-    background-color: #333;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-  }
+.product-page {
+  background-color: #121212;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 3rem;
+}
+
+.product-main {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.product-highlight {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid #333;
+}
+
+.highlight-left img {
+  width: 500px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.highlight-right {
+  max-width: 600px;
+  color: #fff; /* Change text color to white */
+  text-align: left;
+}
+
+.highlight-right p{
+  color: #fff; /* Set text color to white */
+  margin: 0.5rem 0; /* Add consistent spacing */
+}
+
+.highlight-right p strong {
+  color: #fff; /* Set text color to white */
+  margin: 0.5rem 0; /* Add consistent spacing */
+}
+
+.highlight-right h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: #fff; /* Ensure product name is white */
+}
+
+.highlight-right h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #fff; /* Ensure tagline is white */
+  margin-bottom: 1.5rem;
+}
+
+.highlight-right .description {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #fff; /* Ensure description text is white */
+}
+
+
+.product-image img {
+  width: 400px;
+  border-radius: 8px;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-info h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.product-info h2 {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.product-info p {
+  margin: 0.5rem 0;
+}
+
+.product-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.product-buttons button {
+  padding: 0.8rem 1.5rem;
+  font-weight: 600;
+  border: 2px solid #f7c400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buy-now {
+  background-color: #f7c400;
+  color: #000;
+}
+
+.add-to-cart {
+  background-color: transparent;
+  color: #fff;
+}
+
+.buy-now:hover,
+.add-to-cart:hover {
+  opacity: 0.85;
+}
+
+.product-buttons .buy-now {
+  background-color: #f7c400;
+  color: #000;
+  font-weight: bold;
+}
+
+.product-buttons button:hover {
+  opacity: 0.8;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  width: 200px;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.card:hover {
+  border-color: #f7c400; /* Yellow border on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+  transition: transform 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+}
+
+.card img {
+  width: 100%;
+  height: 150px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image is cropped proportionally */
+  border-radius: 5px;
+}
+
+.card p {
+  margin: 0.3rem 0;
+  color: #fff;
+  text-align: center;
+}
+
+.card .product-name {
+  height: 2.5rem; /* Adjust based on the expected length of product names */
+  overflow: hidden; /* Prevent text overflow */
+  text-overflow: ellipsis; /* Add ellipsis for long names */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+.card .price {
+  height: 1.5rem; /* Adjust based on the expected length of prices */
+  color: #f7c400;
+  font-weight: bold;
+  text-align: center;
+}
+
+.rating {
+  color: #f7c400;
+  margin-top: 0.3rem;
+}
