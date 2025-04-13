@@ -26,7 +26,7 @@ const CartPage = ({ cart, setCart }) => {
 
   // Calculate total price
   const totalPrice = cart.reduce(
-    (total, item) => total + parseFloat(item.price.replace('$', '')) * item.quantity,
+    (total, item) => total + parseFloat(item.price.replace(/[^0-9.]/g, '')) * item.quantity,
     0
   );
 
@@ -65,7 +65,7 @@ const CartPage = ({ cart, setCart }) => {
                         <button className="increase-btn" onClick={() => updateQuantity(item, 1)}>+</button>
                       </div>
                     </td>
-                    <td>${(parseFloat(item.price.replace('$', '')) * item.quantity).toFixed(2)}</td>
+                    <td>${(parseFloat(item.price.replace(/[^0-9.]/g, '')) * item.quantity).toFixed(2)}</td>
                     <td>
                       <button className="delete-btn" onClick={() => removeFromCart(item)}>X</button>
                     </td>
