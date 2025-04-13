@@ -6,51 +6,106 @@
     text-align: center;
     width: 100%;
     margin-top: auto;
+    
   }
-
-.footer__container {
+  
+  .footer__container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     max-width: 900px;
     margin: auto;
-}
-
-.footer__section h4 {
+  }
+  
+  .footer__section {
+    flex: 1;
+  }
+  
+  .footer__header {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 8px;
+  }
+  
+  .footer__header h4 {
     font-size: 1.2rem;
     font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.footer__section p {
-    margin: 5px 0;
-    font-size: 1rem;
-}
-
-.footer__social {
+    text-align: center;
+    margin: 0;
+  }
+  
+  .footer__toggler {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 10px;
+  }
+  
+  .footer__social {
     display: flex;
     justify-content: center;
     gap: 20px;
-}
-
-.footer__icon {
+  }
+  
+  .footer__icon {
     font-size: 1.5rem;
     cursor: pointer;
     transition: transform 0.3s ease;
-}
-
-.footer__icon:hover {
+  }
+  
+  .footer__icon:hover {
     transform: scale(1.2);
-}
-
-.link-footer {
+  }
+  
+  .link-footer {
     text-decoration: none;
     color: black;
     display: block;
     text-align: center;
-}
-
-.link-footer:hover {
+  }
+  
+  .link-footer:hover {
     text-decoration: underline;
     color: white;
-}
+  }
+  
+  /* Hide toggler on large screens and always show links */
+  @media (min-width: 768px) {
+    .footer__toggler {
+      display: none;
+    }
+    
+    .footer__links {
+      display: flex !important;
+    }
+  }
+  
+  /* On small screens, hide links by default and show toggler */
+  @media (max-width: 767px) {
+    .footer__container {
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .footer__links {
+      display: none;
+    }
+    
+    .footer__links.open {
+      display: flex;
+    }
+    
+    .bi-caret-down-fill.rotated {
+      transform: rotate(180deg);
+    }
+  }
