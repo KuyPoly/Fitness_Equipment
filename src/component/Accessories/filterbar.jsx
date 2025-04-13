@@ -3,10 +3,11 @@ import "./filterBar.css";
 
 export default function FilterBar({ onCategoryChange, activeCategory }) {
     const buttons = [
-        { name: "Shop All Racks", category: "all" },
-        { name: "T-2 Series", category: "T-2 Series" },
-        { name: "T-3 Series", category: "T-3 Series" },
-        { name: "X-3 Series", category: "X-3 Series" },
+        { name: "Shop All Accessories", category: "all" },
+        { name: "Gym Apparel", category: "apparel" },
+        { name: "Head wear & Accessories", category: "headwear" },
+        { name: "Footer & Stock", category: "footer" },
+        { name: "Gym Bags", category: "bags" },
     ];
 
     return (
