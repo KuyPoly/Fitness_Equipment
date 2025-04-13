@@ -40,7 +40,6 @@ const AccountPage = () => {
             </div>
         </div>
         </div>
-        <div className="footer-space"></div>
         <Footer />
     </div>
   );

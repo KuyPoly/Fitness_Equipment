@@ -31,8 +31,9 @@
     color: white;
     padding-left: 100px;
 }
-.footer{
-    margin-top: 20px;
+
+.rack-items {
+    margin-bottom: 20px;
 }
 /* Responsive adjustments */
 @media (max-width: 768px) {
