@@ -3,6 +3,7 @@ import "./accessoriespage.css";
 import FilterBar from "../../component/Accessories/filterbar";
 import accessoriesData from "../../data/accessories.json";
 import Card from "../../component/Accessories/cards";
+import Footer from "../../component/footer/footer"; // Import the Footer component
 
 export default function AccessoriesPage() {
     const [category, setCategory] = useState("all"); // State to track the selected category
@@ -47,6 +48,7 @@ export default function AccessoriesPage() {
                     See More
                 </button>
             )}
+            <Footer /> {/* Include the Footer component here */}
         </div>
     );
 }

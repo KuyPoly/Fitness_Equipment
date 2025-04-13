@@ -31,6 +31,9 @@
     color: white;
     padding-left: 100px;
 }
+.footer{
+    margin-top: 20px;
+}
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .title {

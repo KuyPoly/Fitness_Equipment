@@ -3,6 +3,7 @@ import "./rackpage.css";
 import FilterBar from "../../component/rackpage/filterBar";
 import rackData from "../../data/rack.json";
 import Card from "../../component/rackpage/cards";
+import Footer from '../../component/footer/footer';
 
 export default function Rackpage() {
     const [category, setCategory] = useState("all"); // State to track the selected category
@@ -50,6 +51,8 @@ export default function Rackpage() {
                     See More
                 </button>
             )}
+            <Footer />
         </div>
+        
     );
 }
