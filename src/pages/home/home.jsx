@@ -20,7 +20,7 @@ export default function Home() {
                 <div className="home__premium-section">
                     <h3>Premium Equipment</h3>
                     <div className="home__premium-cards">
-                        <PremiumCard name="Gym Racks" link="/" pic={pre1} />
+                        <PremiumCard name="Gym Racks" link="/rackpage" pic={pre1} />
                         <PremiumCard name="Weight Bench" link="/" pic={pre2} />
                         <PremiumCard name="Bar&Weight" link="/" pic={pre3} />
                         <PremiumCard name="Specialty Machines" link="/" pic={pre4} />

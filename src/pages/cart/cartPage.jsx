@@ -31,59 +31,60 @@ const CartPage = ({ cart, setCart }) => {
   );
 
   return (
-    <div className="cart-page">
-      <h1>Shopping Cart</h1>
-      {cart.length === 0 ? (
-        <p>Your cart is empty.</p>
-      ) : (
-        <>
-          <table className="cart-table">
-            <thead>
-              <tr>
-                <th>Product</th>
-                <th>Unit Price</th>
-                <th>Quantity</th>
-                <th>Total Price</th>
-                <th></th>
-              </tr>
-            </thead>
-            <tbody>
-              {cart.map((item, index) => (
-                <tr key={index}>
-                  <td>
-                    <div className="cart-product">
-                      <img src={item.image} alt={item.name} />
-                      <p>{item.name}</p>
-                    </div>
-                  </td>
-                  <td>{item.price}</td>
-                  <td>
-                    <div className="quantity-controls">
-                      <button className="decrease-btn" onClick={() => updateQuantity(item, -1)}>-</button>
-                      <span className="quantity-number">{item.quantity}</span>
-                      <button className="increase-btn" onClick={() => updateQuantity(item, 1)}>+</button>
-                    </div>
-                  </td>
-                  <td>${(parseFloat(item.price.replace('$', '')) * item.quantity).toFixed(2)}</td>
-                  <td>
-                    <button className="delete-btn" onClick={() => removeFromCart(item)}>X</button>
-                  </td>
+    <div>
+      <div className="cart-page">
+        <h1>Shopping Cart</h1>
+        {cart.length === 0 ? (
+          <p>Your cart is empty.</p>
+        ) : (
+          <>
+            <table className="cart-table">
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Unit Price</th>
+                  <th>Quantity</th>
+                  <th>Total Price</th>
+                  <th></th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
-          <div className="cart-summary">
-            <h3>Total: ${totalPrice.toFixed(2)}</h3>
-            <div className="cart-buttons">
-            <button className="continue-shopping" onClick={() => navigate('/rackpage')}>Continue Shopping</button>
-                <button className="order-now">Order Now</button>
+              </thead>
+              <tbody>
+                {cart.map((item, index) => (
+                  <tr key={index}>
+                    <td>
+                      <div className="cart-product">
+                        <img src={item.image} alt={item.name} />
+                        <p>{item.name}</p>
+                      </div>
+                    </td>
+                    <td>{item.price}</td>
+                    <td>
+                      <div className="quantity-controls">
+                        <button className="decrease-btn" onClick={() => updateQuantity(item, -1)}>-</button>
+                        <span className="quantity-number">{item.quantity}</span>
+                        <button className="increase-btn" onClick={() => updateQuantity(item, 1)}>+</button>
+                      </div>
+                    </td>
+                    <td>${(parseFloat(item.price.replace('$', '')) * item.quantity).toFixed(2)}</td>
+                    <td>
+                      <button className="delete-btn" onClick={() => removeFromCart(item)}>X</button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <div className="cart-summary">
+              <h3>Total: ${totalPrice.toFixed(2)}</h3>
+              <div className="cart-buttons">
+              <button className="continue-shopping" onClick={() => navigate('/rackpage')}>Continue Shopping</button>
+                  <button className="order-now">Order Now</button>
+              </div>
             </div>
-          </div>
-        </>
-      )}
+          </>
+        )}
+      </div>
       <Footer/>
     </div>
-    
   );
 };
 

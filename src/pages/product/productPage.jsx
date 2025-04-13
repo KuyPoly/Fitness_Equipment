@@ -41,28 +41,30 @@ const ProductPage = ({ cart, setCart }) => {
   }
 
   return (
-    <div className="product-page">
-      <main className="product-main">
-      <ProductDetails product={product} cart={cart} setCart={setCart} />
+    <div>
+      <div className="product-page">
+        <main className="product-main">
+        <ProductDetails product={product} cart={cart} setCart={setCart} />
 
-        <section className="section">
-          <h3>Recently Viewed</h3>
-          <div className="card-container">
-            {recentlyViewed.map((item, index) => (
-              <ProductCard key={index} product={item} />
-            ))}
-          </div>
-        </section>
+          <section className="section">
+            <h3>Recently Viewed</h3>
+            <div className="card-container">
+              {recentlyViewed.map((item, index) => (
+                <ProductCard key={index} product={item} />
+              ))}
+            </div>
+          </section>
 
-        <section className="section">
-          <h3>Best Seller</h3>
-          <div className="card-container">
-            {bestSellers.map((item, index) => (
-              <ProductCard key={index} product={item} />
-            ))}
-          </div>
-        </section>
-      </main>
+          <section className="section">
+            <h3>Best Seller</h3>
+            <div className="card-container">
+              {bestSellers.map((item, index) => (
+                <ProductCard key={index} product={item} />
+              ))}
+            </div>
+          </section>
+        </main>
+      </div>
       <Footer />
     </div>
   );
