@@ -14,6 +14,7 @@ import Contact from './pages/Contact/contact';
 import AccessoriesPage from './pages/accessories/accessoriespage';
 import Payment from './pages/Payment/payment'; 
 import SearchResult from './component/nav/SeachResult';
+import Method from './pages/Method/method';
 
 function App() {
   const [cart, setCart] = useState([]); // Global cart state
@@ -35,6 +36,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/payment" element={<Payment />} /> 
           <Route path="/search" element={<SearchResult />} />
+          <Route path="/method" element={<Method />} /> 
+
         </Routes>
       </div>
     </Router>

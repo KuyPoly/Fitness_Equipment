@@ -34,7 +34,7 @@ export default function Footer() {
             </button>
           </div>
           <div className={`footer__links ${openSections.payment ? "open" : ""}`}>
-            <Link to={"/"} className="link-footer">
+            <Link to={"/method"} className="link-footer">
               Payment Method
             </Link>
           </div>
