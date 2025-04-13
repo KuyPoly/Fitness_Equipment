@@ -84,7 +84,7 @@ export default function Navbar() {
               <Link className="nav-link" to="/specialty">Specialty Machines</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/">Accessories</Link>
+              <Link className="nav-link" to="/accessories">Accessories</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/contact">Contact Us</Link>

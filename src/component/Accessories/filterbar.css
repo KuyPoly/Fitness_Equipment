@@ -1,0 +1,29 @@
+.bg-yellow {
+    background-color: #FFC700;
+}
+.font-bold{
+    font-weight: 500;
+}
+.flex {
+    display: flex;
+    gap: 10px; /* Add spacing between buttons */
+    align-items: center;
+    padding-left: 100px; 
+}
+button {
+    transition: background-color 0.3s ease;
+}
+
+.bg-yellow {
+    background-color: #ffc700;
+    color: black;
+}
+
+.bg-gray {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+button:hover {
+    opacity: 0.8;
+}

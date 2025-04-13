@@ -77,7 +77,7 @@ const CartPage = ({ cart, setCart }) => {
               <h3>Total: ${totalPrice.toFixed(2)}</h3>
               <div className="cart-buttons">
               <button className="continue-shopping" onClick={() => navigate('/rackpage')}>Continue Shopping</button>
-                  <button className="order-now">Order Now</button>
+                  <button className="order-now" onClick={() => navigate('/payment') }>Order Now</button>
               </div>
             </div>
           </>
