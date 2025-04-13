@@ -15,6 +15,8 @@ import AccessoriesPage from './pages/accessories/accessoriespage';
 import Payment from './pages/Payment/payment'; 
 import SearchResult from './component/nav/SeachResult';
 import Method from './pages/Method/method';
+import Profile from './component/accountpage/profile/profile';
+
 
 function App() {
   const [cart, setCart] = useState([]); // Global cart state
@@ -31,6 +33,12 @@ function App() {
           <Route path="/product/:name" element={<ProductPage cart={cart} setCart={setCart} />} />
           <Route path="/cart" element={<CartPage cart={cart} setCart={setCart} />} />
           <Route path="/account" element={<AccountPage />} />
+          <Route path="/signup" element={<Signup />} /> {/* Add Signup route */}
+          <Route path="/sign-up" element={<Signup />} /> {/* Add Account route */}
+          <Route path="/log-in" element={<AccountPage />} /> {/* Add Log-in route */}
+          <Route path="/register" element={<Signup />} /> {/* Add Register route */}
+          <Route path="/profile" element={<Profile />} /> {/* Add Profile route */}
+          <Route path="/contact" element={<Contact />} /> {/* Add Contact route */}
           <Route path="/accessories" element={<AccessoriesPage />} />
           <Route path="/signup" element={<Signup />} /> 
           <Route path="/contact" element={<Contact />} />

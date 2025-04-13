@@ -82,15 +82,9 @@ export default function Footer() {
             </button>
           </div>
           <div className={`footer__links ${openSections.account ? "open" : ""}`}>
-            <Link to={"/sign-in"} className="link-footer">
-              Sign in
-            </Link>
-            <Link to={"/log-in"} className="link-footer">
-              Log in
-            </Link>
-            <Link to={"/profile"} className="link-footer">
-              Profile
-            </Link>
+          <Link to={"/sign-up"} className="link-footer">Sign up</Link>
+            <Link to={"/log-in"} className="link-footer">Log in</Link>
+            <Link to={"/profile"} className="link-footer">Profile</Link>
           </div>
         </div>
       </div>
