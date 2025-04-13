@@ -13,6 +13,7 @@ import Signup from './component/signup/signup';
 import Contact from './pages/Contact/contact'; 
 import AccessoriesPage from './pages/accessories/accessoriespage';
 import Payment from './pages/Payment/payment'; 
+import SearchResult from './component/nav/SeachResult';
 
 function App() {
   const [cart, setCart] = useState([]); // Global cart state
@@ -33,6 +34,7 @@ function App() {
           <Route path="/signup" element={<Signup />} /> 
           <Route path="/contact" element={<Contact />} />
           <Route path="/payment" element={<Payment />} /> 
+          <Route path="/search" element={<SearchResult />} />
         </Routes>
       </div>
     </Router>
