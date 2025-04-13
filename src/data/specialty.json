@@ -6,7 +6,8 @@
     "dimensions": "80” x 37” x 62.25” (203cm x 94cm x 158cm)",
     "weight": "444 lbs (201kg)",
     "image": "https://shop.lifefitness.com/cdn/shop/files/club-series-treadmill-life-fitness-sl-console-black-onyx-update-1000x1000.jpg?v=1707748446",
-    "price": "$3,499"
+    "price": "$3,499",
+    "category": "Cardio"
   },
   {
     "name": "Matrix Fitness T7Xe Treadmill",
@@ -15,7 +16,8 @@
     "dimensions": "83” x 36” x 61” (211cm x 91cm x 155cm)",
     "weight": "445 lbs (202kg)",
     "image": "https://images.activefitnessstore.com/product-large/LIF-LCV-ASPT-SL-ASLHN-12-0/life-fitness-aspire-sl-treadmill-arctic-silver-high-voltage-base-lif-lcv-aspt-sl-aslhn-12-0.jpg",
-    "price": "$3,150"
+    "price": "$3,150",
+    "category": "Cardio"
   },
   {
     "name": "Merax A6 Folding Electric Treadmill",
@@ -24,7 +26,8 @@
     "dimensions": "55” x 25” x 45” (140cm x 64cm x 114cm)",
     "weight": "70 lbs (32kg)",
     "image": "https://www.xterrafitness.com/pub/media/amasty/webp/catalog/product/cache/ff1f99b98c71b3754c9e0f90de22a5db/w/s/ws300_wr_r-r3-4_1_jpg.webp",
-    "price": "$499"
+    "price": "$499",
+    "category": "Cardio"
   },
   {
     "name": "StairMaster 8 Series Gauntlet Stepmill with LCD Console",
@@ -33,7 +36,8 @@
     "dimensions": "58” x 34” x 89” (147cm x 86cm x 226cm)",
     "weight": "343 lbs (156kg)",
     "image": "https://gymconcepts.ca/cdn/shop/products/stairmaster-8gx-gauntlet-319823_1080x.webp?v=1680122010",
-    "price": "$5,300"
+    "price": "$5,300",
+    "category": "Cardio"
   },
   {
     "name": "StairMaster HIITMill X Incline Treadmill",
@@ -42,7 +46,8 @@
     "dimensions": "78” x 55” x 66” (198cm x 140cm x 168cm)",
     "weight": "430 lbs (195kg)",
     "image": "https://m.media-amazon.com/images/I/71dkN94jjsL._AC_SL1500_.jpg",
-    "price": "$2,999"
+    "price": "$2,999",
+    "category": "Cardio"
   },
   {
     "name": "StairMaster SM916 Stepmill",
@@ -51,7 +56,8 @@
     "dimensions": "58” x 34” x 89” (147cm x 86cm x 226cm)",
     "weight": "343 lbs (156kg)",
     "image": "https://energiefitness.in/cdn/shop/files/ESM-101A.png?v=1715752150",
-    "price": "$4,850"
+    "price": "$4,850",
+    "category": "Cardio"
   },
   {
     "name": "Body-Solid Pro Clubline Cable Crossover SCC1200G",
@@ -60,7 +66,8 @@
     "dimensions": "156” x 36” x 91” (396cm x 91cm x 231cm)",
     "weight": "940 lbs (427kg)",
     "image": "https://titan.fitness/cdn/shop/files/400883_01.jpg?v=1742223739",
-    "price": "$2,399"
+    "price": "$2,399",
+    "category": "Strength"
   },
   {
     "name": "Freemotion Dual Cable Cross Machine",
@@ -69,7 +76,8 @@
     "dimensions": "60” x 113” x 84” (152cm x 287cm x 213cm)",
     "weight": "925 lbs (420kg)",
     "image": "https://bellsofsteel.com/cdn/shop/files/2STK-PULT3-PUB-SET.jpg?v=1744144872&width=460",
-    "price": "$4,100"
+    "price": "$4,100",
+    "category": "Strength"
   },
   {
     "name": "Exercise Bikes",
@@ -78,7 +86,8 @@
     "dimensions": "83” x 35” x 63” (211cm x 89cm x 160cm)",
     "weight": "473 lbs (215kg)",
     "image": "https://mobileimages.lowes.com/productimages/7ccab436-b4c1-4e68-85d0-61035d16655a/65490345.jpg?size=xl",
-    "price": "$1,200"
+    "price": "$1,200",
+    "category": "Cardio"
   },
   {
     "name": "Assault AirBike Elite",
@@ -87,7 +96,8 @@
     "dimensions": "55” x 26” x 55” (140cm x 66cm x 140cm)",
     "weight": "139 lbs (63kg)",
     "image": "https://shop.lifefitness.com/cdn/shop/files/club-series-plus-upright-bike-sl-titanium-update-1000x1000.jpg?v=1715009358",
-    "price": "$899"
+    "price": "$899",
+    "category": "Cardio"
   },
   {
     "name": "TitanPro RowMax R1000",
@@ -96,7 +106,8 @@
     "dimensions": "84” x 21” x 46” (213cm x 53cm x 117cm)",
     "weight": "98 lbs (44kg)",
     "image": "https://www.fitnessbodystrong.com/uploads/201712641/p201704011441297071319.jpg",
-    "price": "$749"
+    "price": "$749",
+    "category": "Cardio"
   },
   {
     "name": "IronSmith Leg Press X3",
@@ -105,7 +116,8 @@
     "dimensions": "87” x 61” x 55” (221cm x 155cm x 140cm)",
     "weight": "308 lbs (140kg)",
     "image": "https://www.primalstrength.com/cdn/shop/files/45DegreeLightLegPress.jpg?v=1688471295",
-    "price": "$1,399"
+    "price": "$1,399",
+    "category": "Strength"
   },
   {
     "name": "Titan Chest Press Pro",
@@ -114,7 +126,8 @@
     "dimensions": "66” x 50” x 57” (168cm x 127cm x 145cm)",
     "weight": "250 lbs (113kg)",
     "image": "https://dynamofitness.com.au/cdn/shop/products/reeplex_commercial_chest_press_90kg_stack.jpg?v=1721730369",
-    "price": "$1,099"
+    "price": "$1,099",
+    "category": "Strength"
   },
   {
     "name": "PulseLat PullDown M100",
@@ -123,7 +136,8 @@
     "dimensions": "68” x 49” x 82” (173cm x 124cm x 208cm)",
     "weight": "192 lbs (87kg)",
     "image": "https://www.bullrockfitness.com/wp-content/uploads/2023/04/2-1024x1024.jpg",
-    "price": "$799"
+    "price": "$799",
+    "category": "Strength"
   },
   {
     "name": "Vulcan Smith Cable Crossover X9",
@@ -132,7 +146,8 @@
     "dimensions": "148” x 35” x 90” (376cm x 89cm x 229cm)",
     "weight": "452 lbs (205kg)",
     "image": "https://spartanfitness.ca/cdn/shop/files/L101-Side.jpg?v=1739551914&width=1920",
-    "price": "$1,899"
+    "price": "$1,899",
+    "category": "Strength"
   },
   {
     "name": "GluteMax Kickback Machine",
@@ -141,7 +156,8 @@
     "dimensions": "63” x 40” x 60” (160cm x 102cm x 152cm)",
     "weight": "180 lbs (82kg)",
     "image": "https://dynamofitness.com.au/cdn/shop/products/glute_kickback_machine_90kg_stack_reeplex_commercial.jpg?v=1721730335",
-    "price": "$849"
+    "price": "$849",
+    "category": "Strength"
   },
   {
     "name": "XFit Leg Curl / Leg Extension Combo",
@@ -150,7 +166,8 @@
     "dimensions": "72” x 45” x 57” (183cm x 114cm x 145cm)",
     "weight": "210 lbs (95kg)",
     "image": "https://www.lifefitness.com/Kentico13CoreBase/media/LFMedia/LifeFitnessImages/MediaSync/27-028-hammer-strength-select-leg-extension-image-new.jpg",
-    "price": "$1,199"
+    "price": "$1,199",
+    "category": "Strength"
   },
   {
     "name": "IronCore Functional Trainer FT500",
@@ -159,7 +176,8 @@
     "dimensions": "60” x 43” x 83” (152cm x 109cm x 211cm)",
     "weight": "400 lbs (181kg)",
     "image": "https://welcarefitness.com/image/cache/catalog/FM025%20ABS%20MACHINE-1500x1500.jpg",
-    "price": "$1,499"
+    "price": "$1,499",
+    "category": "Strength"
   },
   {
     "name": "BeastIncline Shoulder Press M750",
@@ -168,7 +186,8 @@
     "dimensions": "70” x 52” x 60” (178cm x 132cm x 152cm)",
     "weight": "240 lbs (109kg)",
     "image": "https://www.americanfitness.net/images/products/detail/MSP800.jpg",
-    "price": "$1,049"
+    "price": "$1,049",
+    "category": "Strength"
   },
   {
     "name": "Titan Smith Machine Elite X100",
@@ -177,7 +196,8 @@
     "dimensions": "85” x 50” x 90” (216cm x 127cm x 229cm)",
     "weight": "375 lbs (170kg)",
     "image": "https://pulsefitness.com/wp-content/uploads/2019/10/875G-AAQ-1200.jpg",
-    "price": "$1,599"
+    "price": "$1,599",
+    "category": "Strength"
   },
   {
     "name": "HyperChest Press H200",
@@ -186,7 +206,8 @@
     "dimensions": "65” x 50” x 55” (165cm x 127cm x 140cm)",
     "weight": "235 lbs (107kg)",
     "image": "https://gmwdfitness.com/cdn/shop/files/gmwd-bench-press-machine-v3-main-pic-4.jpg?v=1731572570",
-    "price": "$750"
+    "price": "$750",
+    "category": "Strength"
   },
   {
     "name": "LegPro Hack Squat S3",
@@ -195,7 +216,8 @@
     "dimensions": "88” x 42” x 60” (224cm x 107cm x 152cm)",
     "weight": "310 lbs (141kg)",
     "image": "https://www.primalstrength.com/cdn/shop/products/PSSS0013-Commercial-ISO-V-Hack-Squat.jpg?v=1646480138",
-    "price": "$1,200"
+    "price": "$1,200",
+    "category": "Strength"
   },
   {
     "name": "PulldownTower PT800",
@@ -204,7 +226,8 @@
     "dimensions": "72” x 48” x 82” (183cm x 122cm x 208cm)",
     "weight": "200 lbs (91kg)",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi45YZ5z2Apsdd29PB9iMu2a4UvJ-vcEom2g&s",
-    "price": "$899"
+    "price": "$899",
+    "category": "Strength"
   },
   {
     "name": "XCore Seated Row XR350",
@@ -213,20 +236,7 @@
     "dimensions": "60” x 44” x 58” (152cm x 112cm x 147cm)",
     "weight": "215 lbs (98kg)",
     "image": "https://graysfitness.com.au/wp-content/uploads/Life-Fitness-Pro2-Seated-Row.webp",
-    "price": "$999"
+    "price": "$999",
+    "category": "Strength"
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 ]
