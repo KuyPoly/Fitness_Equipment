@@ -88,5 +88,145 @@
     "weight": "139 lbs (63kg)",
     "image": "https://shop.lifefitness.com/cdn/shop/files/club-series-plus-upright-bike-sl-titanium-update-1000x1000.jpg?v=1715009358",
     "price": "$899"
+  },
+  {
+    "name": "TitanPro RowMax R1000",
+    "tagline": "Silent Magnetic Rower for Smooth Strokes",
+    "description": "Built with advanced magnetic resistance, the RowMax R1000 offers whisper-quiet operation and a full-body cardio workout ideal for home gyms.",
+    "dimensions": "84” x 21” x 46” (213cm x 53cm x 117cm)",
+    "weight": "98 lbs (44kg)",
+    "image": "https://www.fitnessbodystrong.com/uploads/201712641/p201704011441297071319.jpg",
+    "price": "$749"
+  },
+  {
+    "name": "IronSmith Leg Press X3",
+    "tagline": "Heavy-Duty Leg Press for Lower Body Strength",
+    "description": "This machine targets quads, hamstrings, and glutes with a smooth 45° sled and adjustable backrest for all user sizes.",
+    "dimensions": "87” x 61” x 55” (221cm x 155cm x 140cm)",
+    "weight": "308 lbs (140kg)",
+    "image": "https://www.primalstrength.com/cdn/shop/files/45DegreeLightLegPress.jpg?v=1688471295",
+    "price": "$1,399"
+  },
+  {
+    "name": "Titan Chest Press Pro",
+    "tagline": "Plate-Loaded Chest Press for Upper Body Gains",
+    "description": "Designed to isolate the chest muscles, this commercial machine features dual handles and a natural pressing motion.",
+    "dimensions": "66” x 50” x 57” (168cm x 127cm x 145cm)",
+    "weight": "250 lbs (113kg)",
+    "image": "https://dynamofitness.com.au/cdn/shop/products/reeplex_commercial_chest_press_90kg_stack.jpg?v=1721730369",
+    "price": "$1,099"
+  },
+  {
+    "name": "PulseLat PullDown M100",
+    "tagline": "Versatile Lat Machine for Back and Shoulder Work",
+    "description": "This machine targets your lats, traps, and biceps using high-tension pulleys and adjustable thigh pads for stability.",
+    "dimensions": "68” x 49” x 82” (173cm x 124cm x 208cm)",
+    "weight": "192 lbs (87kg)",
+    "image": "https://www.bullrockfitness.com/wp-content/uploads/2023/04/2-1024x1024.jpg",
+    "price": "$799"
+  },
+  {
+    "name": "Vulcan Smith Cable Crossover X9",
+    "tagline": "Dual Adjustable Pulley Machine for Full-Body Workouts",
+    "description": "This commercial cable system enables a wide range of upper and lower body exercises with smooth pulley action and multi-grip pull-up bars.",
+    "dimensions": "148” x 35” x 90” (376cm x 89cm x 229cm)",
+    "weight": "452 lbs (205kg)",
+    "image": "https://spartanfitness.ca/cdn/shop/files/L101-Side.jpg?v=1739551914&width=1920",
+    "price": "$1,899"
+  },
+  {
+    "name": "GluteMax Kickback Machine",
+    "tagline": "Targeted Glute Trainer with Smooth Resistance",
+    "description": "Focus on building glutes and hamstrings with this machine designed for single-leg kickbacks with adjustable padding and support.",
+    "dimensions": "63” x 40” x 60” (160cm x 102cm x 152cm)",
+    "weight": "180 lbs (82kg)",
+    "image": "https://dynamofitness.com.au/cdn/shop/products/glute_kickback_machine_90kg_stack_reeplex_commercial.jpg?v=1721730335",
+    "price": "$849"
+  },
+  {
+    "name": "XFit Leg Curl / Leg Extension Combo",
+    "tagline": "2-in-1 Machine for Hamstring and Quad Isolation",
+    "description": "Switch easily between leg curls and extensions with this dual-purpose machine built for strength and rehab workouts.",
+    "dimensions": "72” x 45” x 57” (183cm x 114cm x 145cm)",
+    "weight": "210 lbs (95kg)",
+    "image": "https://www.lifefitness.com/Kentico13CoreBase/media/LFMedia/LifeFitnessImages/MediaSync/27-028-hammer-strength-select-leg-extension-image-new.jpg",
+    "price": "$1,199"
+  },
+  {
+    "name": "IronCore Functional Trainer FT500",
+    "tagline": "Compact Trainer for Full-Body Movements",
+    "description": "With dual adjustable pulleys and multiple attachments, this all-in-one system supports strength, mobility, and rehab training.",
+    "dimensions": "60” x 43” x 83” (152cm x 109cm x 211cm)",
+    "weight": "400 lbs (181kg)",
+    "image": "https://welcarefitness.com/image/cache/catalog/FM025%20ABS%20MACHINE-1500x1500.jpg",
+    "price": "$1,499"
+  },
+  {
+    "name": "BeastIncline Shoulder Press M750",
+    "tagline": "Commercial Shoulder Press with Adjustable Incline",
+    "description": "Designed to hit all heads of the deltoids, this machine provides a comfortable seated press experience with precise movement.",
+    "dimensions": "70” x 52” x 60” (178cm x 132cm x 152cm)",
+    "weight": "240 lbs (109kg)",
+    "image": "https://www.americanfitness.net/images/products/detail/MSP800.jpg",
+    "price": "$1,049"
+  },
+  {
+    "name": "Titan Smith Machine Elite X100",
+    "tagline": "Guided Barbell for Safe, Controlled Lifting",
+    "description": "Great for solo strength training, this Smith machine features a built-in barbell with linear bearings for smooth vertical movement.",
+    "dimensions": "85” x 50” x 90” (216cm x 127cm x 229cm)",
+    "weight": "375 lbs (170kg)",
+    "image": "https://pulsefitness.com/wp-content/uploads/2019/10/875G-AAQ-1200.jpg",
+    "price": "$1,599"
+  },
+  {
+    "name": "HyperChest Press H200",
+    "tagline": "Seated Chest Press for Powerful Upper Body Training",
+    "description": "With an ergonomic seat and adjustable arm positions, the H200 allows for a controlled and targeted chest workout for all fitness levels.",
+    "dimensions": "65” x 50” x 55” (165cm x 127cm x 140cm)",
+    "weight": "235 lbs (107kg)",
+    "image": "https://gmwdfitness.com/cdn/shop/files/gmwd-bench-press-machine-v3-main-pic-4.jpg?v=1731572570",
+    "price": "$750"
+  },
+  {
+    "name": "LegPro Hack Squat S3",
+    "tagline": "Angled Squat Machine for Lower Body Strength",
+    "description": "The Hack Squat S3 delivers a smooth sled motion with padded support to build strong quads, glutes, and calves while minimizing stress on joints.",
+    "dimensions": "88” x 42” x 60” (224cm x 107cm x 152cm)",
+    "weight": "310 lbs (141kg)",
+    "image": "https://www.primalstrength.com/cdn/shop/products/PSSS0013-Commercial-ISO-V-Hack-Squat.jpg?v=1646480138",
+    "price": "$1,200"
+  },
+  {
+    "name": "PulldownTower PT800",
+    "tagline": "Lat Pulldown and Low Row Combo Machine",
+    "description": "The PT800 features a high pulley for pulldowns and a low pulley for rows, offering full upper back development with a compact footprint.",
+    "dimensions": "72” x 48” x 82” (183cm x 122cm x 208cm)",
+    "weight": "200 lbs (91kg)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi45YZ5z2Apsdd29PB9iMu2a4UvJ-vcEom2g&s",
+    "price": "$899"
+  },
+  {
+    "name": "XCore Seated Row XR350",
+    "tagline": "Precision Row Machine for Mid-Back Muscle Engagement",
+    "description": "With adjustable chest pad and rotating handles, the XR350 isolates your rhomboids, traps, and lats for a powerful pulling motion.",
+    "dimensions": "60” x 44” x 58” (152cm x 112cm x 147cm)",
+    "weight": "215 lbs (98kg)",
+    "image": "https://graysfitness.com.au/wp-content/uploads/Life-Fitness-Pro2-Seated-Row.webp",
+    "price": "$999"
   }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 ]

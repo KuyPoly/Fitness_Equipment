@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './component/nav/Navbar';
 import Home from './pages/home/home';
 import Rackpage from './pages/rack/rackpage';
+import SpecialtyPage from './pages/specialty/specialtyPage';
 import ProductPage from './pages/product/productPage';
 import CartPage from './pages/cart/cartPage';
 import ScrollToTop from './component/scrollTotheTop';
@@ -22,6 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/rackpage" element={<Rackpage />} />
+          <Route path="/specialty" element={<SpecialtyPage />} /> 
           <Route path="/product/:name" element={<ProductPage cart={cart} setCart={setCart} />} />
           <Route path="/cart" element={<CartPage cart={cart} setCart={setCart} />} />
           <Route path="/account" element={<AccountPage />} />
