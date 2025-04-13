@@ -12,7 +12,7 @@ export default function Footer() {
         </div>
         <div className="footer__section">
           <h4>Customer Service</h4>
-          <Link to={"/"} className="link-footer">Contact Us</Link>
+          <Link to={"/contact"} className="link-footer">Contact Us</Link>
         </div>
         <div className="footer__section">
           <h4>Account</h4>

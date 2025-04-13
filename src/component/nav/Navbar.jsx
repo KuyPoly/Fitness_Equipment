@@ -87,7 +87,7 @@ export default function Navbar() {
               <Link className="nav-link" to="/">Accessories</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/">Contact Us</Link>
+              <Link className="nav-link" to="/contact">Contact Us</Link>
             </li>
             {/* Small Screen Cart and Account Links */}
             <li className="nav-item d-lg-none">

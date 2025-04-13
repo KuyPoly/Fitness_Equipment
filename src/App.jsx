@@ -9,6 +9,7 @@ import CartPage from './pages/cart/cartPage';
 import ScrollToTop from './component/scrollTotheTop';
 import AccountPage from './component/accountpage/accountpage';  
 import Signup from './component/signup/signup';  
+import Contact from './pages/Contact/contact'; 
 
 function App() {
   const [cart, setCart] = useState([]); // Global cart state
@@ -25,6 +26,7 @@ function App() {
           <Route path="/cart" element={<CartPage cart={cart} setCart={setCart} />} />
           <Route path="/account" element={<AccountPage />} />
           <Route path="/signup" element={<Signup />} /> {/* Add Signup route */}
+          <Route path="/contact" element={<Contact />} /> {/* Add Contact route */}
         </Routes>
       </div>
     </Router>
