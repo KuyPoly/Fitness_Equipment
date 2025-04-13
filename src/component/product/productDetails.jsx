@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import Popup from '../cart/popup';
+import { useNavigate } from 'react-router-dom';
 
 const ProductDetails = ({ product, cart, setCart }) => {
   const [showPopup, setShowPopup] = useState(false);
+  const navigate = useNavigate();
 
   const addToCart = () => {
       setCart((prevCart) => {
@@ -31,7 +33,7 @@ const ProductDetails = ({ product, cart, setCart }) => {
         <p><strong>Weight:</strong> {product.weight}</p>
         <p className="price"><strong>Price:</strong> {product.price}</p>
         <div className="product-buttons">
-          <button className="buy-now">Buy Now</button>
+          <button className="buy-now" onClick={() => navigate('/payment')}>Buy Now</button>
           <button className="add-to-cart" onClick={addToCart}>Add to Cart</button>
         </div>
       </div>
