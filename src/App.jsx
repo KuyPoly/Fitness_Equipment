@@ -17,7 +17,7 @@ import SearchResult from './component/nav/SeachResult';
 import Method from './pages/Method/method';
 import Profile from './component/accountpage/profile/profile';
 import Benchpage from './pages/bench/benchpage'; // Import Benchpage
-
+import BarWeightPage from './pages/bar_weight/bar_weightpage';
 
 function App() {
   const [cart, setCart] = useState([]); // Global cart state
@@ -47,6 +47,7 @@ function App() {
           <Route path="/search" element={<SearchResult />} />
           <Route path="/method" element={<Method />} /> 
           <Route path="/benchpage" element={<Benchpage />} />
+          <Route path="/bar_weightpage" element={<BarWeightPage />} /> {/* Add BarWeightPage route */}
         </Routes>
       </div>
     </Router>

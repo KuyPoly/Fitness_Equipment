@@ -91,7 +91,7 @@ export default function Navbar() {
               <Link className="nav-link" to="/benchpage">Bench</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/">Bar&weight</Link>
+              <Link className="nav-link" to="/bar_weightpage">Bar&weight</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/specialty">Specialty Machines</Link>
