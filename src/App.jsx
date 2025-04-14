@@ -16,8 +16,9 @@ import Payment from './pages/Payment/payment';
 import SearchResult from './component/nav/SeachResult';
 import Method from './pages/Method/method';
 import Profile from './component/accountpage/profile/profile';
-import Benchpage from './pages/bench/benchpage'; // Import Benchpage
+import Benchpage from './pages/bench/benchpage'; 
 import BarWeightPage from './pages/bar_weight/bar_weightpage';
+import SpecialtyPage from './pages/specialty/specialtyPage'; 
 
 function App() {
   const [cart, setCart] = useState([]); // Global cart state
@@ -47,7 +48,8 @@ function App() {
           <Route path="/search" element={<SearchResult />} />
           <Route path="/method" element={<Method />} /> 
           <Route path="/benchpage" element={<Benchpage />} />
-          <Route path="/bar_weightpage" element={<BarWeightPage />} /> {/* Add BarWeightPage route */}
+          <Route path="/bar_weightpage" element={<BarWeightPage />} /> 
+          <Route path="/special" element={<SpecialtyPage />} />
         </Routes>
       </div>
     </Router>
