@@ -16,6 +16,7 @@ import Payment from './pages/Payment/payment';
 import SearchResult from './component/nav/SeachResult';
 import Method from './pages/Method/method';
 import Profile from './component/accountpage/profile/profile';
+import Benchpage from './pages/bench/benchpage'; // Import Benchpage
 
 
 function App() {
@@ -45,7 +46,7 @@ function App() {
           <Route path="/payment" element={<Payment />} /> 
           <Route path="/search" element={<SearchResult />} />
           <Route path="/method" element={<Method />} /> 
-
+          <Route path="/benchpage" element={<Benchpage />} />
         </Routes>
       </div>
     </Router>

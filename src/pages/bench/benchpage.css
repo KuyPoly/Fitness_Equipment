@@ -1,0 +1,139 @@
+.bench-page {
+    display: flex;
+    flex-direction: column;
+    background-color: #252424;
+    height: 100vh;
+    color: white;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    padding-left: 100px;
+  }
+  
+  .desc {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+    padding-left: 100px;
+  }
+  
+  .desc__text {
+    display: flex;
+    width: 85%;
+    font-weight: 350;
+    text-align: left;
+    color: white;
+    padding-left: 100px;
+  }
+  
+  .filter-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding-left: 100px;
+  }
+  
+  .filter-button {
+    padding: 5px 10px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: black;
+    font-size: 1rem;
+    margin-top: 10px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .filter-button.active {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .filter-button:hover {
+    background-color: #e6e6e5;
+    color: black;
+  }
+  
+  .bench-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch; /* Ensures all cards have the same height */
+    gap: 20px;
+}
+  
+  .bench-item__toggle {
+    background-color: #ffc700;
+    border: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  .bench-item__toggle:hover {
+    background-color: #e0b800;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 20px;
+      padding-left: 10px;
+    }
+  
+    .desc {
+      font-size: 16px;
+      padding-left: 10px;
+    }
+  
+    .desc__text {
+      font-size: 14px;
+      padding-left: 10px;
+    }
+  
+    .bench-items {
+      gap: 15px;
+    }
+  
+    .bench-item__toggle {
+      font-size: 12px;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 18px;
+      padding-left: 5px;
+    }
+  
+    .desc {
+      font-size: 14px;
+      padding-left: 5px;
+    }
+  
+    .desc__text {
+      font-size: 12px;
+      padding-left: 5px;
+    }
+  
+    .bench-items {
+      gap: 10px;
+    }
+  
+    .bench-item__toggle {
+      font-size: 10px;
+      padding: 6px 12px;
+    }
+  }
