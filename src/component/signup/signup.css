@@ -75,3 +75,63 @@
   .signup-btn:hover {
     background-color: #ffc107;
   }
+
+
+  .signup-left {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gym-background {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/signup.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+  }
+  
+  /* ========== RESPONSIVE STYLES ========== */
+  
+  /* 👉 max-width: 1024px (Tablet Landscape) */
+  @media (max-width: 1024px) {
+    .signup-page {
+      flex-direction: column;
+    }
+  
+    .signup-left {
+      width: 100%;
+      height: 300px;
+    }
+  
+    .gym-background {
+      position: relative;
+      height: 100%;
+    }
+  }
+  
+  /* 👉 max-width: 768px (Tablet Portrait) */
+  @media (max-width: 768px) {
+    .signup-left {
+      height: 250px;
+    }
+  
+    .gym-background {
+      background-position: center center;
+    }
+  }
+  
+  /* 👉 max-width: 480px (Mobile) */
+  @media (max-width: 480px) {
+    .signup-left {
+      height: 200px;
+    }
+  
+    .gym-background {
+      background-size: cover;
+      background-position: center top;
+    }
+  }
+  
