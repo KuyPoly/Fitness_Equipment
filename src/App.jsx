@@ -34,7 +34,7 @@ function App() {
           <Route path="/product/:name" element={<ProductPage cart={cart} setCart={setCart} />} />
           <Route path="/cart" element={<CartPage cart={cart} setCart={setCart} />} />
           <Route path="/account" element={<AccountPage />} />
-          <Route path="/signup" element={<Signup />} />
+          <Route path="/sign-up" element={<Signup />} />
           <Route path="/log-in" element={<AccountPage />} />
           <Route path="/register" element={<Signup />} />
           <Route path="/profile" element={<Profile />} />
