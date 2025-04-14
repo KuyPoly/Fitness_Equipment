@@ -6,7 +6,8 @@
     "dimensions": "60” x 2” x 2” (152cm x 5cm x 5cm)",
     "weight": "25 lbs (11kg)",
     "image": "https://www.fitlineindia.com/cdn/shop/products/WhatsAppImage2021-04-15at6.36.30PM_2.jpg?v=1632216203&width=1445",
-    "price": "$129.99"
+    "price": "$129.99",
+    "category": "Standard"
   },
   {
     "name": "BodyMax Olympic Rubber Radial Disc Weight Plates",
@@ -15,7 +16,8 @@
     "dimensions": "Varies by weight",
     "weight": "Varies by selection",
     "image": "https://www.kroger.com/product/images/xlarge/front/0084236413412",
-    "price": "$79.99"
+    "price": "$79.99",
+    "category": "Standard"
   },
   {
     "name": "Core Fitness Adjustable Dumbbell Weight Set",
@@ -24,7 +26,8 @@
     "dimensions": "14.5” x 7.9” x 7.5” (37cm x 20cm x 19cm)",
     "weight": "50 lbs (23kg) per dumbbell",
     "image": "https://www.mynavyexchange.com/products/images/large/14865036_001.jpg",
-    "price": "$239.00"
+    "price": "$239.00",
+    "category": "Standard"
   },
   {
     "name": "Mirafit EZ Curl Bar",
@@ -33,7 +36,8 @@
     "dimensions": "47” x 2” x 2” (119cm x 5cm x 5cm)",
     "weight": "15 lbs (7kg)",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF2YerwB8RBDUN9m84YD0KJ1LbMnvRUax4khkNwIZnQ7jnbzsRQ0WsJssEgyocnmaQD-Y&usqp=CAU",
-    "price": "$59.95"
+    "price": "$59.95",
+    "category": "Standard"
   },
   {
     "name": "Rogue Aluminum Collars",
@@ -42,7 +46,8 @@
     "dimensions": "2” diameter",
     "weight": "0.5 lbs (0.2kg) per collar",
     "image": "https://www.lifelinefitness.com/cdn/shop/files/f0043g_1.jpg?v=1728318657",
-    "price": "$42.00"
+    "price": "$42.00",
+    "category": "Olympic"
   },
   {
     "name": "York Barbell Fixed Straight and Curl Barbell Rack",
@@ -51,7 +56,8 @@
     "dimensions": "50” x 30” x 60” (127cm x 76cm x 152cm)",
     "weight": "150 lbs (68kg)",
     "image": "https://www.jordanfitness.com/cdn/shop/files/JTRBARSN4-20_1024x1024.jpg?v=1731363839",
-    "price": "$499.00"
+    "price": "$499.00",
+    "category": "Olympic"
   },
   {
     "name": "Body Solid Standard Weight Plate Set - 85 lbs",
@@ -60,7 +66,8 @@
     "dimensions": "Varies by plate size",
     "weight": "85 lbs (39kg) total",
     "image": "https://cdn.fitshop.co.uk/pictures/bodymax//GRP0150005/bodymax_olympic_rubber_weight_dics_1600_1600.jpg",
-    "price": "$119.99"
+    "price": "$119.99",
+    "category": "Olympic"
   },
   {
     "name": "Escape Fitness Fixed Barbell Set with Rack",
@@ -69,7 +76,8 @@
     "dimensions": "Rack: 60” x 30” x 50” (152cm x 76cm x 127cm)",
     "weight": "Varies by barbell",
     "image": "https://www.jordanfitness.com/cdn/shop/files/JTRBARSN4-20_1024x1024.jpg?v=1731363839",
-    "price": "$899.00"
+    "price": "$899.00",
+    "category": "Olympic"
   },
   {
     "name": "Les Mills SMARTBAR Weight Set",

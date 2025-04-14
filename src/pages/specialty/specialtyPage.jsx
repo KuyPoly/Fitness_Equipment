@@ -21,9 +21,7 @@ export default function SpecialtyPage() {
   const visibleData = filteredData.slice(0, visibleCount);
 
   const toggleExpand = () => {
-    setVisibleCount((prevCount) =>
-      prevCount === filteredData.length ? 16 : filteredData.length
-    );
+    setVisibleCount(filteredData.length); // Show all items when "See More" is clicked
   };
 
   return (
@@ -70,7 +68,7 @@ export default function SpecialtyPage() {
 
       {filteredData.length > 16 && (
         <button className="specialty-item__toggle" onClick={toggleExpand}>
-          {visibleCount === filteredData.length ? "See Less" : "See More"}
+          See More
         </button>
       )}
 

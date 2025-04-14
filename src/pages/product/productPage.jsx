@@ -6,14 +6,16 @@ import rackData from '../../data/rack.json';
 import benchData from '../../data/bench.json';
 import specialtyData from '../../data/specialty.json';
 import barWeightData from '../../data/bar_weight.json';
+import accessoriesData from "../../data/accessories.json";
 
 import ProductDetails from '../../component/product/productDetails'; // Corrected path
 import ProductCard from '../../component/product/productCard'; // Corrected path
 import Footer from '../../component/footer/footer'; // Import Footer
 
+
 const ProductPage = ({ cart, setCart }) => {
   const { name } = useParams();
-  const allData = [...rackData, ...benchData, ...specialtyData, ...barWeightData];
+  const allData = [...rackData, ...benchData, ...specialtyData, ...barWeightData, ...accessoriesData];
   const product = allData.find((item) => item.name === name);
 
   const [recentlyViewed, setRecentlyViewed] = useState([]);

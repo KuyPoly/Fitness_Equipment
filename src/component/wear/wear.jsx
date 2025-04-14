@@ -13,7 +13,7 @@ export default function Wear() {
                     and comfortable, breathable, trendy, sweat-absorbing, and is composed of
                     high-quality materials. for you. A Relaxable fit!
                 </p>
-                <Link to="/" className="btn btn-warning rounded-0 border border-dark mt-4">
+                <Link to="/accessories" className="btn btn-warning rounded-0 border border-dark mt-4">
                     Shop Now
                 </Link>
             </div>
