@@ -1,12 +1,32 @@
-# React + Vite
+# Fitness E-commerce Website
+PowerFitness is an e-commerce website specialize in Gym equipment and accessories. This website is design to let users enjoy the best shopping experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Features
+- **Home Page**: Highlights premium equipment and best sellers.
+- **Product Pages**: Displays detailed information about products, including images, prices, and ratings.
+- **Category Pages**: Filter and browse products by categories like racks, benches, bar weights, specialty machines, and accessories.
+- **Search Functionality**: Search for products using keywords.
+- **User Authentication**: 
+  - Log in to access personalized features.
+  - Sign up for an account to save order history and pre-fill checkout forms.
+- **Shopping Cart**: Add, update, and remove items from the cart. View total price and proceed to checkout.
+- **Payment Process**: Choose from multiple payment methods and complete purchases.
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
 
-Currently, two official plugins are available:
+## Technology Used
+- **Frontend**: React, React Router
+- **Styling**: CSS, Bootstrap
+- **Build Tool**: Vite
+- **State Management**: React's useState and useEffect hooks
+- **Routing**: React Router DOM
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+1. **Clone the repository**
+   Git clone this repository
+   https://github.com/your-repo/fitness-equipment.git
+3. **Install Dependency**
+   npm install
+4. **Start the development Server**
+   npm run dev
+5. **View**
+   Open the app in your browser at http://localhost:5173.
